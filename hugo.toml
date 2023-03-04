@@ -3,7 +3,7 @@ languageCode = 'en-us'
 title = 'Personal Website of Johann Birnick'
 theme = 'mathematician'
 copyright = 'Copyright © 2022-{year} Johann Birnick'
-disableKinds = ['taxonomy', 'term', 'sitemap', 'home']
+disableKinds = ['taxonomy', 'term', 'sitemap', 'RSS']
 
 [params]
 Author = 'Johann Birnick'
