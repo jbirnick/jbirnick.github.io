@@ -8,4 +8,4 @@ disableKinds = ['taxonomy', 'term', 'sitemap', 'home']
 [params]
 Author = 'Johann Birnick'
 Description = 'The personal website of Johann Birnick, a mathematician and technologist.'
-Keywords = ['Birnick', 'Johann', 'math', 'mathematics', 'research', 'number theory', 'algebra', 'algebraic geometry', 'arithmetic geometry', 'cryptography', 'computation', 'algorithms']
+Keywords = ['Birnick', 'Johann', 'math', 'mathematics', 'research', 'number theory', 'arithmetic geometry', 'algebraic geometry', 'cryptography', 'computation', 'algorithms', 'technology']
