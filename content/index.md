@@ -22,7 +22,7 @@ At this point I want to learn more about:
 
 Before that, I was doing some computer science.
 I like explicit and computational aspects of number theory / arithmetic geometry, and also cryptography.
-In fact, breaking elliptic curve based cryptography has been a great motivation for me to learn about things mentioned above.
+In fact, breaking elliptic curve based cryptography has been a great motivation for me to learn about the things mentioned above.
 Formally verifiable proofs are also a neat thing; I wonder about their foundations and how it can be combined with computational math.
 
 If you are at ETH, please have a look at the [undergraduate colloquium](https://zucmap.ethz.ch/), which I have (re)initiated together with Sidd!
