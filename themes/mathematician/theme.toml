@@ -1,0 +1,12 @@
+name = "Mathematician"
+license = "MIT"
+licenselink = "https://raw.githubusercontent.com/jbirnick/jbirnick.github.io/main/themes/mathematician/LICENSE"
+description = "A minimal theme for a website with a few subpages and a blog."
+homepage = "#"
+tags = ["minimal", "minimalistic", "clean", "simple", "blog", "math"]
+features = ["latex", "katex"]
+min_version = "0.110.0"
+
+[author]
+  name = "Johann Birnick"
+  homepage = "https://jbirnick.github.io"

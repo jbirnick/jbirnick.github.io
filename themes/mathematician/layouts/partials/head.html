@@ -1,0 +1,14 @@
+<meta charset="UTF-8">
+<title>{{ .Site.Title }}</title>
+<link rel="icon" type="image/png" href="/favicon.png">
+<link rel="stylesheet" href="/style.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+{{ with .Site.Params.Author }}
+<meta name="author" content="{{- . }}">
+{{ end }}
+{{ with .Site.Params.Description }}
+<meta name="description" content="{{- . -}}">
+{{ end }}
+{{ with .Site.Params.Keywords }}
+<meta name="keywords" content="{{- delimit . "," -}}">
+{{ end }}
