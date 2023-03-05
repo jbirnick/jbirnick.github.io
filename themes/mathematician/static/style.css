@@ -3,7 +3,20 @@ body {
   margin: auto;
   padding: 0.3em;
   line-height: 1.4;
+  font-size: 108%;
   background-color: #ffffdb;
+}
+
+@media print {
+  body {
+    line-height: 1.2;
+    font-size: 11pt;
+    background-color: transparent;
+  }
+
+  footer {
+    display: none;
+  }
 }
 
 nav ul {
@@ -48,4 +61,8 @@ figure.floatright {
   margin-left: 1em;
   width: 38.2%;
   height: auto;
+}
+
+.katex {
+  font-size: 1.08em;
 }
