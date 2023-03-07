@@ -1,6 +1,10 @@
 {{ define "main" }}  
 {{ .Content }}  
-{{ with .Lastmod }}
-<p style="font-style: oblique;"><small>This subpage was last updated in {{ dateFormat "January 2006" . }}.</small></p>
+{{ range .Pages }}
+<article>
+<a style="color: inherit;" href="{{ .RelPermalink }}">
+{{ .Render "preview"}}
+</a>
+</article>
 {{ end }}
 {{ end }}

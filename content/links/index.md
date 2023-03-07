@@ -1,6 +1,9 @@
 +++
-title = 'Links'
-menu = 'main'
+title = 'Links | Johann Birnick'
+description = ''
+keywords = []
+menu.main.name = 'Links'
+weight = 40
 +++
 On this page I collect links to useful webpages, nice people, and other things.
 

@@ -6,11 +6,10 @@ copyright = 'Copyright © 2022-{year} Johann Birnick'
 disableKinds = ['taxonomy', 'term', 'sitemap', 'RSS']
 
 [params]
-Author = 'Johann Birnick'
-Description = 'The personal website of Johann Birnick, a mathematician and technologist.'
-Keywords = ['Birnick', 'Johann', 'math', 'mathematics', 'research', 'number theory', 'arithmetic geometry', 'algebraic geometry', 'cryptography', 'computation', 'algorithms', 'technology']
+author = 'Johann Birnick'
 
-[markup]
-  [markup.goldmark]
-    [markup.goldmark.extensions]
-    linkify = false
+[frontmatter]
+lastmod = ['lastmod']
+
+[markup.goldmark.extensions]
+linkify = false

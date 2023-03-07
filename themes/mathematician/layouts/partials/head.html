@@ -1,15 +1,35 @@
 <meta charset="UTF-8">
-<title>{{ .Site.Title }}</title>
+{{ with .Title }}
+<title>{{- . -}}</title>
+{{ end }}
+<base href="{{- .Site.BaseURL -}}">
 <link rel="icon" type="image/png" href="/favicon.png">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.4/dist/katex.min.css" integrity="sha384-vKruj+a13U8yHIkAyGgK1J3ArTLzrFGBbBc0tDp4ad/EyewESeXE/Iv67Aj8gKZ0" crossorigin="anonymous">
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.4/dist/katex.min.js" integrity="sha384-PwRUT/YqbnEjkZO0zZxNqcxACrXe+j766U2amXcgMg5457rve2Y7I6ZJSm2A0mS4" crossorigin="anonymous"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.4/dist/contrib/auto-render.min.js" integrity="sha384-+VBxd3r6XgURycqtZ117nYw44OOcIax56Z4dCRWbxyPt0Koah1uHoK0o4+/RRE05" crossorigin="anonymous"></script>
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        renderMathInElement(document.body, {
+          delimiters: [
+              {left: '$$', right: '$$', display: true},
+              {left: '$', right: '$', display: false},
+          ],
+          throwOnError : false
+        });
+    });
+</script>
 <link rel="stylesheet" href="/style.css">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-{{ with .Site.Params.Author }}
-<meta name="author" content="{{- . }}">
-{{ end }}
-{{ with .Site.Params.Description }}
+{{ with .Description }}
 <meta name="description" content="{{- . -}}">
 {{ end }}
-{{ with .Site.Params.Keywords }}
+{{ with .Keywords }}
 <meta name="keywords" content="{{- delimit . "," -}}">
+{{ end }}
+{{ with .Params.author }}
+<meta name="author" content="{{- . -}}">
+{{ else }}
+{{ with .Site.Params.author }}
+<meta name="author" content="{{- . -}}">
+{{ end }}
 {{ end }}

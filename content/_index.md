@@ -1,6 +1,9 @@
 +++
-title = 'About'
-menu = 'main'
+title = 'Personal Website of Johann Birnick'
+description = 'The personal website of Johann Birnick, a mathematician and technologist.'
+keywords = ['Birnick', 'Johann', 'math', 'mathematics', 'research', 'number theory', 'arithmetic geometry', 'algebraic geometry', 'cryptography', 'computation', 'algorithms', 'technology']
+menu.main.name = 'About'
+weight = 10
 layout = 'single'
 lastmod = 2023-03-04
 +++
@@ -17,7 +20,7 @@ At this point, apart from Algebraic Number Theory and Algebraic Geometry in gene
   * shimura curves attached to them
   * Jacquet–Langlands correspondence
 - Galois Theory of schemes, relation between Galois groups and fundamental groups
-- p-adic methods, and analogues for (complex-)analytic notions in this setting (like integration)
+- $p$-adic methods, and analogues for (complex-)analytic notions in this setting (like integration)
 - Galois representations and their role in the Langlands Program
 
 Before that, I was doing computer science.

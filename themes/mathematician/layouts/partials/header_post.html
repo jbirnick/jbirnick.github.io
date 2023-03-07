@@ -1,0 +1,13 @@
+<header>
+  <div id="posthead" class="noprint">
+    <a id="posthead-back" style="float: left;" href="{{- .Parent.RelPermalink -}}">⇠ back to all posts</a>
+    {{ if isset .Params "pdf" }}
+    {{ if .Params.pdf }}
+    <a id="posthead-pdf" style="float: right;" href="">Download PDF</a>
+    {{ end }}
+    {{ end }}
+  </div>
+  <h1>{{- .Title -}}</h1>
+  <p id="postauthor">{{- .Params.author -}}</p>
+  <p id="postdate">{{- dateFormat "January 2006" .PublishDate -}}</p>
+</header>
