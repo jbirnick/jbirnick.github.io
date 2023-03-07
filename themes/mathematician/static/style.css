@@ -13,6 +13,18 @@ footer {
   color: grey;
 }
 
+@media screen and (max-width: 600px) {
+  body {
+    font-size: 12pt;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  body {
+    font-size: 11pt;
+  }
+}
+
 @media print {
   body {
     line-height: 1.2;
