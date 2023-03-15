@@ -6,6 +6,7 @@ body {
   font-size: 13pt;
   background-color: #ffffdb;
   overflow-y: scroll;
+  font-family: 'Lora', serif;
 }
 
 footer {
@@ -47,6 +48,7 @@ nav ul {
   padding: 0;
   text-align: center;
   background-image: linear-gradient(to right, rgba(255,247,200,0), rgba(255,247,200,1), rgba(255,247,200,0));
+  background-image: linear-gradient(to right, rgba(255,247,200,0), rgba(255,247,190,1), rgba(255,247,200,0));
 }
 
 nav li {
@@ -140,14 +142,15 @@ figure.floatleft {
 
 div.preview {
   overflow: auto;
-  padding: 5px;
+  padding: 0px;
   margin-top: 1em;
   margin-bottom: 1em;
+  border-radius: 0.07em;
 }
 
 div.preview:hover {
   background-color: rgba(0,0,0,0.1);
-  border-radius: 0.2em;
+  box-shadow: 0px 0px 0px 0.3em rgba(0,0,0,0.1);
 }
 
 div.preview h3 {
@@ -157,9 +160,9 @@ div.preview h3 {
 
 div.preview p {
   margin-top: 0.3em;
-  margin-bottom: 0.3em;
+  margin-bottom: 0em;
 }
 
 .katex {
-  font-size: 1.065em;
+  font-size: 1.17em;
 }

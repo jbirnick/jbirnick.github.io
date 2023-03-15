@@ -1,11 +1,11 @@
 +++
-title = '{{ replace .Name "-" " " | title }}'
+title = 'The Magic of Elliptic Curves'
 description = ''
 keywords = []
 author = 'Johann Birnick'
 categories = ['mathematics']
 tags = []
-publishDate = {{ dateFormat "2006-01-02" .Date }}
+publishDate = 2023-03-07
 pdf = false
 draft = true
 +++

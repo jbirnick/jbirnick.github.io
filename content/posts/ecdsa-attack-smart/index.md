@@ -1,6 +1,6 @@
 +++
-title = 'How to break elliptic curve cryptography (in a special case) using $p$-adic numbers'
-description = 'In this post I describe how to break the elliptic curve discrete logarithm problem in the special case where the curve has exactly $p$ points over $\mathbb{F}_p$. This attack was invented by N.P. Smart. I also explain all the necessary mathematical background.'
+title = 'How to break Elliptic Curve Cryptography (in a special case) using $p$-adic numbers'
+description = 'I show how to break the elliptic curve discrete logarithm problem in the special case where the curve has exactly $p$ points over $\mathbb{F}_p$. This attack was invented by N.P. Smart. I also treat the necessary mathematical background.'
 keywords = []
 author = 'Johann Birnick'
 categories = ['mathematics']
@@ -9,13 +9,23 @@ publishDate = 2023-02-05
 pdf = false
 draft = true
 +++
-Das hier $f_x$ geht, aber das \underbrace{a}_{b} - \underbrace{c}_{d} nicht.
-Wenn ich es mit Shortmache, dann {{< raw >}} x yz {{< /raw >}} sollte es klappen.
+$\gdef\Z{\mathbb{Z}}\gdef\Q{\mathbb{Q}}\gdef\F{\mathbb{F}}\gdef\Pr{\mathbb{Pr}}\gdef\Af{\mathbb{Af}}$
 
-## das ist h2
-### das ist h3
-$\End(\phi)$
+These days, elliptic curves over finite fields are widely used in public-key cryptography since about 20 years.
+This is due to the fact that the *discrete logarithm problem* DLOG on such a curve is generally hard to solve; meaning, so far nobody has found an algorithm that computes solutions in a reasonable time.
+However, in special cases one can solve DLOG efficiently.
+The most intriguing attack was invented by [Nigel P. Smart](https://nigelsmart.github.io/) in TODO:
+It makes use of the theory of elliptic curves over the $p$-adic numbers $\Q_p$ to solve DLOG when the curve over $\F_p$ has exactly $p$ points.
+The goal of this article is to explain Smart's Attack with more elementary terms, making it quickly accessible even to beginning undergraduates.
 
-$\gdef\End{\operatorname{End}}$
+TODO what does the article do
 
-$\End(\phi)$
+## The Problem
+
+## Projective Space of a Ring
+
+## Elliptic Curves over a Ring
+
+## Elliptic Curves over $\Z/p^2\Z$
+
+## The Attack
