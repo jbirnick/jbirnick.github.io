@@ -2,7 +2,7 @@ baseURL = 'https://jbirnick.github.io/'
 languageCode = 'en-us'
 title = 'Personal Website of Johann&nbsp;Birnick'
 theme = 'mathematician'
-copyright = 'Copyright © 2022-{year} Johann Birnick'
+copyright = 'Copyright © 2022–{year} Johann Birnick'
 disableKinds = ['taxonomy', 'term', 'sitemap', 'RSS']
 
 [params]

@@ -1,0 +1,6 @@
+{{ $list := getJSON "https://mathmeetings.net/nt.json" }}
+<ul class=conference>
+{{ range $list.conferences }}
+<li class="conference"><a href="{{ .homepage }}">{{ .title }}</a><br><small>{{ with .meeting_type }}[{{ . }}] {{ end }}{{ dateFormat "2 Jan 2006" .start_date }} to {{ dateFormat "2 Jan 2006" .end_date}}{{ with .institution }}, {{ . }}{{ end }}{{ with .city }}, {{ . }}{{ end }}, {{ .country }}</small></li>
+{{ end }}
+</ul>

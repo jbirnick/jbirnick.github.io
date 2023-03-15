@@ -163,6 +163,16 @@ div.preview p {
   margin-bottom: 0em;
 }
 
+ul.conference {
+  line-height: 1;
+  list-style-type: none;
+  padding: 0px;
+}
+
+li.conference:not(:last-child) {
+  margin-bottom: 0.5em;
+}
+
 .katex {
   font-size: 1.17em;
 }
