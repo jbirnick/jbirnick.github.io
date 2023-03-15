@@ -13,3 +13,6 @@ lastmod = ['lastmod']
 
 [markup.goldmark.extensions]
 linkify = false
+
+[markup.highlight]
+noClasses = "false"

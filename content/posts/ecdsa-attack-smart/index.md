@@ -1,5 +1,5 @@
 +++
-title = 'How to break Elliptic Curve Cryptography (in a special case) using $p$-adic numbers'
+title = 'How to break Elliptic Curve Cryptography with $p$-adic numbers (in a special case)'
 description = 'I show how to break the elliptic curve discrete logarithm problem in the special case where the curve has exactly $p$ points over $\mathbb{F}_p$. This attack was invented by N.P. Smart. I also treat the necessary mathematical background.'
 keywords = []
 author = 'Johann Birnick'

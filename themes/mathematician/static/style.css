@@ -2,8 +2,7 @@ body {
   max-width: 700px;
   margin: auto;
   padding: 0.3em;
-  line-height: 1.4;
-  font-size: 13pt;
+  font-size: 18px;
   background-color: #ffffdb;
   overflow-y: scroll;
   font-family: 'Lora', serif;
@@ -16,19 +15,18 @@ footer {
 
 @media screen and (max-width: 600px) {
   body {
-    font-size: 12pt;
+    font-size: 16px;
   }
 }
 
 @media screen and (max-width: 500px) {
   body {
-    font-size: 11pt;
+    font-size: 14px;
   }
 }
 
 @media print {
   body {
-    line-height: 1.2;
     font-size: 11pt;
     background-color: transparent;
   }
@@ -47,7 +45,6 @@ nav ul {
   margin: 1em 0;
   padding: 0;
   text-align: center;
-  background-image: linear-gradient(to right, rgba(255,247,200,0), rgba(255,247,200,1), rgba(255,247,200,0));
   background-image: linear-gradient(to right, rgba(255,247,200,0), rgba(255,247,190,1), rgba(255,247,200,0));
 }
 
@@ -175,4 +172,22 @@ li.conference:not(:last-child) {
 
 .katex {
   font-size: 1.17em;
+  line-height: 0.5em;
+}
+
+div.highlight {
+  border-radius: 0.07em;
+  box-shadow: 0px 0px 0px 0.3em rgba(255,247,190,1);
+}
+
+code {
+  font-family: 'Cousine', monospace;
+}
+
+hr {
+  border: 1px solid;
+}
+
+.footnotes {
+  font-size: 14px;
 }

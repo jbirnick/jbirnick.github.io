@@ -14,7 +14,7 @@ On this page I collect links to useful webpages, nice people, and other things.
 - For writing digitally (online lectures, slides, ...), I use [Xournal++](https://xournalpp.github.io/) with a Wacom Pen Tablet (Intuos M).
 - Recently, I became a [SageMath](https://www.sagemath.org/) contributor.
 
-## Conferences / Programs / Meetings / ...
+## Conferences / Programs / Meetings
 
 Below are all [MathMeetings.net](https://mathmeetings.net/) entries with a number theory tag.
 
