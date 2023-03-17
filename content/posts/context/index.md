@@ -7,6 +7,7 @@ categories = ['other']
 tags = ['software', 'typesetting']
 publishDate = 2023-03-15
 pdf = false
+comments = true
 draft = true
 +++
 In the mathematical community, typesetting is almost always done with [LaTeX](https://en.wikipedia.org/wiki/LaTeX).
@@ -24,7 +25,9 @@ In this post, I wish to introduce you to ConTeXt and show you how to make the sw
 
 ## Examples
 
-The minimal ConTeXt file is this:
+here is fdsf how does fsd srender btw
+
+The minimal ConTeXt file is `this` jo:
 
 ```tex
 \setuppapersize[A4]
@@ -38,4 +41,3 @@ The minimal ConTeXt file is this:
 ```
 
 ## ConTeXt vs. LaTeX
-

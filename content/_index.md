@@ -7,7 +7,7 @@ weight = 10
 layout = 'single'
 lastmod = 2023-03-04
 +++
-{{< figure src="photo.png" class="floatright" alt="A photo of me on a hike trip." >}}
+{{< figure src="photo.webp" class="floatright" alt="A photo of me on a hike trip." >}}
 
 I'm a math student interested in number theory, arithmetic geometry, and computational aspects of the previous.
 Currently I do Part III in Cambridge, before that I've been at ETH Zurich.

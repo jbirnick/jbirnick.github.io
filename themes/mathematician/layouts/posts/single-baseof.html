@@ -6,6 +6,13 @@
         <main>
         {{- block "main" . }}{{- end }}
         </main>
+        {{ if .Site.Params.commentsystem }}
+        {{ if isset .Params "comments" }}
+        {{ if .Params.comments }}
+        {{- partial "comments.html" -}}
+        {{ end }}
+        {{ end }}
+        {{ end }}
         {{- partial "footer.html" . -}}
     </body>
 </html>

@@ -1,3 +1,11 @@
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --yellow: rgba(255,247,190,1);
+}
+
 body {
   max-width: 700px;
   margin: auto;
@@ -45,7 +53,7 @@ nav ul {
   margin: 1em 0;
   padding: 0;
   text-align: center;
-  background-image: linear-gradient(to right, rgba(255,247,200,0), rgba(255,247,190,1), rgba(255,247,200,0));
+  background-image: linear-gradient(to right, transparent, var(--yellow), transparent);
 }
 
 nav li {
@@ -171,17 +179,24 @@ li.conference:not(:last-child) {
 }
 
 .katex {
-  font-size: 1.17em;
-  line-height: 0.5em;
+  font-size: 1.17em !important;
+  line-height: 0.5em !important;
 }
 
-div.highlight {
-  border-radius: 0.07em;
-  box-shadow: 0px 0px 0px 0.3em rgba(255,247,190,1);
-}
-
-code {
+pre, code, .chroma {
   font-family: 'Cousine', monospace;
+  font-size: 0.9em;
+  padding-top: 0.1em;
+  background-color: var(--yellow);
+}
+
+pre code {
+  display: block;
+}
+
+pre {
+  border-radius: 0.07em;
+  box-shadow: 0px 0px 0px 0.3em var(--yellow);
 }
 
 hr {
@@ -190,4 +205,34 @@ hr {
 
 .footnotes {
   font-size: 14px;
+}
+
+input, textarea {
+  font: inherit;
+  background-color: inherit;
+  border: 2px solid grey;
+  border-radius: 0.4em;
+  padding: 0.4em;
+  outline: none;
+}
+
+input:focus, textarea:focus {
+  border-color: black;
+}
+
+input[type=button], input[type=submit] {
+  background-color: var(--yellow);
+}
+
+input[type=submit] {
+  background-color: rgba(255,236,100,1);
+}
+
+#comments {
+  font-size: smaller;
+}
+
+#comment-text {
+  width: 100%;
+  resize: vertical;
 }
