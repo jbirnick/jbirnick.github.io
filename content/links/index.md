@@ -9,14 +9,15 @@ On this page I collect links to useful webpages, nice people, and other things.
 
 ## Software
 
-- See [my GitHub](https://github.com/jbirnick) for a few programming projects I've made available to the public.
+- See [my GitHub](https://github.com/jbirnick) for a few programming projects I've made publicly available.
 - For typesetting, I use and recommend [ConTeXt](https://wiki.contextgarden.net/) (over LaTeX).
-- For writing digitally (online lectures, slides, ...), I use [Xournal++](https://xournalpp.github.io/) with a Wacom Pen Tablet (Intuos M).
+- For making the pictures in my posts, I use the amazing software [Inkscape](https://inkscape.org/), together with my Wacom Pen Tablet (Intuos M).
+- For writing digitally (online lectures, slides, ...), I use [Xournal++](https://xournalpp.github.io/) with my Wacom tablet.
 - Recently, I became a [SageMath](https://www.sagemath.org/) contributor.
 
 ## Conferences / Programs / Meetings
 
-Below are all [MathMeetings.net](https://mathmeetings.net/) entries with a number theory tag.
+Below are all [MathMeetings.net](https://mathmeetings.net/) entries that have the number theory tag.
 
 {{< conferencelist >}}
 

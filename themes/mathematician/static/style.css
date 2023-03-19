@@ -3,7 +3,7 @@
 }
 
 :root {
-  --yellow: rgba(255,247,190,1);
+  --yellow: rgba(255,248,200,1);
 }
 
 body {
@@ -11,9 +11,13 @@ body {
   margin: auto;
   padding: 0.3em;
   font-size: 18px;
-  background-color: #ffffdb;
+  background-color: rgba(255,252,229,1);
   overflow-y: scroll;
   font-family: 'Lora', serif;
+}
+
+.hide {
+  display: none;
 }
 
 footer {
@@ -30,21 +34,6 @@ footer {
 @media screen and (max-width: 500px) {
   body {
     font-size: 14px;
-  }
-}
-
-@media print {
-  body {
-    font-size: 11pt;
-    background-color: transparent;
-  }
-
-  footer {
-    display: none;
-  }
-
-  .noprint {
-    display: none;
   }
 }
 
@@ -125,24 +114,30 @@ figure {
   padding: 0px;
   height: auto;
   margin-bottom: 1em;
+  width: max-content;
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 figure img {
-  width: 100%;
+  max-width: 100%;
   height: auto;
   display: block;
 }
 
-figure.floatright {
+.floatright {
   float: right;
   margin-left: 1em;
-  width: 38.2%;
 }
 
-figure.floatleft {
+.floatleft {
   float: left;
   margin-right: 1em;
-  width: 38.2%;
+}
+
+.maxgolden {
+  max-width: 38.2%;
 }
 
 div.preview {
@@ -179,8 +174,8 @@ li.conference:not(:last-child) {
 }
 
 .katex {
-  font-size: 1.17em !important;
-  line-height: 0.5em !important;
+  font-size: 1.1em !important;
+  line-height: 0.85em !important;
 }
 
 pre, code, .chroma {
@@ -236,3 +231,45 @@ input[type=submit] {
   width: 100%;
   resize: vertical;
 }
+
+sup {
+  vertical-align: top;
+  font-size: small;
+}
+
+table, th, td {
+  border: 1px solid grey;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 0.2em;
+}
+
+th {
+  background-color: var(--yellow);
+}
+
+td {
+  padding-right: 1em;
+}
+
+@media print {
+  body {
+    font-size: 11pt;
+    background-color: transparent;
+  }
+
+  footer {
+    display: none;
+  }
+
+  .noprint {
+    display: none;
+  }
+
+  figure {
+    max-width: 400pt;
+  }
+}
+
