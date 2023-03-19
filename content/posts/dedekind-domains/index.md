@@ -509,7 +509,7 @@ In other words, we devided the decomposition behaviour of $\P$ over $\p$ into it
 - the "inert" part is entirely contained in $L^{I_\P}/L^{D_\P}$
 - the "splitting" part is entirely contained in $L^{D_\P}/K$
 
-**WARNING.** As I hinted on before, not all of the facts mentioned in this section are generally true, but you need the condition that the residue field extension $L/\P$ over $K/\P$ is separable.
+**WARNING.** As I hinted on before, not all of the facts mentioned in this section are generally true, but you need that the residue field extension $L/\P$ over $K/\p$ is separable.
 This allows you for example to prove that $D_\P \to \Gal(L/\P, K/\p)$ is actually surjective, yielding a short exact sequence $0 \to I_\P \to D_\P \to \Gal(L/\P,K/\p) \to 1$.
 But some of the facts are generally true and can be proved quite easily, and most definitely you can verify all of the facts for our example!
 
