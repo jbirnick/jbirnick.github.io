@@ -16,7 +16,7 @@
 
 {{ if ne $month $currentMonth }}
 {{ $currentMonth = $month }}
-<h4>{{ $currentMonth }}</h4>
+<p>{{ $currentMonth }}</p>
 {{ end }}
 
 <li class="conference"><a href="{{ .homepage }}">{{ .title }}</a><br><small>{{ with .meeting_type }}[{{ . }}] {{ end }}{{ dateFormat "January 2" .start_date }} – {{ if ne (dateFormat "2006" .end_date) $currentYear }}{{ dateFormat "January 2 (2006)" .end_date}}{{ else }}{{ if ne (dateFormat "1" .start_date) (dateFormat "1" .end_date) }}{{ dateFormat "January 2" .end_date}}{{ else }}{{ dateFormat "2" .end_date}}{{ end }}{{ end }}{{ with .institution }}, {{ . }}{{ end }}{{ with .city }}, {{ . }}{{ end }}, {{ .country }}</small></li>
