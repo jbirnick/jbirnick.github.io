@@ -1,6 +1,6 @@
 +++
-title = 'Ramification for Number Fields and Algebraic Curves'
-description = 'I show how the decomposition theory of number fields is applicable to algebraic curves, which allows me to visualize the concepts at the example of a parabola.'
+title = 'Decomposition in Number Fields and Algebraic Curves'
+description = 'I show how the decomposition theory (ramification, splitting, inertness) of number fields is applicable to algebraic curves, which allows me to visualize the concepts at the example of a parabola.'
 keywords = ['math', 'mathematics', 'number theory', 'algebraic curves', 'Dedekind domains', 'ramification', 'decomposition group', 'inertia group']
 author = 'Johann Birnick'
 categories = ['mathematics']
@@ -13,11 +13,9 @@ pdf = false
 Take an extension $L/K$ of number fields. In a first course in algebraic number theory one is introduced to the basic decomposition theory of this extension: splitting, inertness, ramification, decomposition group, inertia group.
 Now, we have the same notions with the same results for morphisms of smooth algebraic curves!
 The reason being that they also give extensions $B/A$ of Dedekind domains, and the theory works in the generality of Dedekind domain extensions.
-In this post, we will visualize the above decomposition concepts for curves.[^5]
+In this post, we will visualize the above decomposition concepts for curves.
 
 {{< figure src="interaction.svg" >}}
-
-[^5]: A better title might have been "Prime Decomposition for [...]", but in particular this post achieves to visualize/explain why the word "ramified" is used number theory, which is a good motivation for reading the post.
 
 ## Number Fields, Curves, and Dedekind Domains
 
