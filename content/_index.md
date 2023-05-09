@@ -33,4 +33,4 @@ If you are at ETH, please have a look at the [undergraduate colloquium](https://
 
 **I am looking for a PhD position from summer 2023.**
 
-Feel free to contact me via firstname.lastname@hotmail.de ([GPG Public Key](gpg-public-key.asc)).
+Feel free to contact me via firstname.lastname@hotmail.de ([PGP Public Key](pgp-public-key.asc)).
