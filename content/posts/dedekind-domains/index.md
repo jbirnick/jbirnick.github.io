@@ -1,6 +1,6 @@
 +++
 title = 'Visualizating Decomposition in Number Fields with Algebraic Curves'
-description = 'I show how the decomposition theory (ramification, splitting, inertness) of number fields is applicable to algebraic curves, which allows me to visualize the concepts at the example of a parabola.'
+description = 'I show how decomposition theory of number fields (ramification, splitting, inertness) is applicable to algebraic curves, which allows me to visualize the concepts at the example of a parabola.'
 keywords = ['math', 'mathematics', 'number theory', 'algebraic curves', 'Dedekind domains', 'ramification', 'decomposition group', 'inertia group']
 author = 'Johann Birnick'
 categories = ['mathematics']
