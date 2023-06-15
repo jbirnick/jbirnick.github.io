@@ -7,7 +7,7 @@ disableKinds = ['taxonomy', 'term', 'sitemap', 'RSS']
 
 [params]
 author = 'Johann Birnick'
-commentsystem = true
+commentsystem = false
 
 [frontmatter]
 lastmod = ['lastmod']
