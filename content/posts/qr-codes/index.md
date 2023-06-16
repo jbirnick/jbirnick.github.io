@@ -87,7 +87,7 @@ This means we have error correction level L and mask `111` (which you'll see lat
 ## Version Information
 
 Our QR code doesn't contain version information, because this is only included in version 7 and larger.
-It just would contain the version number (i.e. size) of the QR code (and, as the format information, some error correction bits).
+It would just contain the version number (i.e. size) of the QR code (and, as the format information, some error correction bits).
 Similar to the format information, two copies are placed into the QR code:
 one above the bottom left finder pattern, and another to the left of the top right finder pattern.
 
@@ -222,9 +222,9 @@ You can check that this actually agrees with the error correction codewordes abo
 ## Data Decoding
 
 Finally, let's decode the data codewords.
+
 The first 4 bits indicate the *mode* (Numeric, Alphanumeric, Byte, Kanji, ...).
 We have `0111`, which means ECI ([Extended Channel Interpretation](https://en.wikipedia.org/wiki/Extended_Channel_Interpretation)) mode.
-
 The next 8 bits (i.e. the last 4 bits of codeword 1 and the first 4 bits of codeword 2) contain the ECI *Designator* `0x1A`, which means that UTF-8 encoding is used.
 
 The 4 bits after this (i.e. the last 4 bits of codeword 2) contain the mode in which the data is encoded.
