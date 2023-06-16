@@ -87,7 +87,7 @@ This means we have error correction level L and mask `111` (which you'll see lat
 ## Version Information
 
 Our QR code doesn't contain version information, because this is only included in version 7 and larger.
-It just contains the version number (i.e. size) of the QR code (and, as the format information, some error correction bits).
+It just would contain the version number (i.e. size) of the QR code (and, as the format information, some error correction bits).
 Similar to the format information, two copies are placed into the QR code:
 one above the bottom left finder pattern, and another to the left of the top right finder pattern.
 
@@ -107,7 +107,7 @@ Applied to our QR code, except for function patterns and format info and version
 
 Now in which order should we read the bits? We go:
 
-- in columns of width 2 we go from right to left in an up-down-up-down-... pattern
+- in columns of width 2 from right to left in an up-down-up-down-... pattern
 - within a column, always first right then left
 - function patterns are skipped
 
@@ -181,6 +181,8 @@ Before we decode the data, let's check how the error correction is constructed.
 
 For error correction, each codeword is interpreted as an element of $$\F_2[t]/(t^8  + t^4 + t^3 + t^2 + 1) \cong: \F_{2^8} = \F_2(\alpha)$$
 with $\alpha := \bar{t}$. Namely, the codeword $b_7 b_6 \cdots b_0$ is interpreted as $b_7 \alpha^7 + \dots +  b_0$.
+
+(For non-mathematicians: $\F$ stands for [finite field](https://en.wikipedia.org/wiki/Finite_field).)
 
 Now we form a polynomial $D \in \F_{2^8}[X]$ whose coefficients are the data codewords (interpreted as elements of $\F_{2^8}$).
 The first data codeword is the coefficient of $X^{33}$ and the 34th (i.e. last) data codeword is the constant coefficient.
