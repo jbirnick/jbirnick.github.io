@@ -1,18 +1,25 @@
 <!DOCTYPE html>
 <html lang="{{ .Site.LanguageCode }}">
     {{- partial "head.html" . -}}
-    <body>
-        {{- partial "header_post.html" . -}}
-        <main>
-        {{- block "main" . }}{{- end }}
-        </main>
-        {{ if .Site.Params.commentsystem }}
-        {{ if isset .Params "comments" }}
-        {{ if .Params.comments }}
-        {{- partial "comments.html" -}}
-        {{ end }}
-        {{ end }}
-        {{ end }}
-        {{- partial "footer.html" . -}}
-    </body>
+  <body>
+  <div id=sidebar class="noprint">
+    <aside>
+    {{- partial "toc.html" . -}}
+    </aside>
+  </div>
+  <div id="stripe">
+    {{- partial "header_post.html" . -}}
+    <main>
+    {{- block "main" . }}{{- end }}
+    </main>
+    {{ if .Site.Params.commentsystem }}
+    {{ if isset .Params "comments" }}
+    {{ if .Params.comments }}
+    {{- partial "comments.html" -}}
+    {{ end }}
+    {{ end }}
+    {{ end }}
+    {{- partial "footer.html" . -}}
+  </div>
+  </body>
 </html>

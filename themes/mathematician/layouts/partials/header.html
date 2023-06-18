@@ -1,7 +1,7 @@
 <header>
   <h1>{{- .Site.Title | safeHTML -}}</h1>
 
-  <nav>
+  <nav id="menu">
     <ul>
       {{ $currentPage := . }}
       {{ range .Site.Menus.main }}

@@ -4,16 +4,32 @@
 
 :root {
   --yellow: rgba(255,248,200,1);
+  --stripewidth: 700px;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 body {
-  max-width: 700px;
-  margin: auto;
-  padding: 0.3em;
   font-size: 18px;
   background-color: rgba(255,252,229,1);
   overflow-y: scroll;
   font-family: 'Lora', serif;
+  margin: 5px;
+}
+
+#stripe {
+  max-width: 700px;
+  margin: auto;
+}
+
+#sidebar {
+  position: fixed;
+  top: 0;
+  width: calc((100% - var(--stripewidth))/2 - 1rem);
+  font-size: 15px;
+  padding: 3rem 2rem;
 }
 
 .hide {
@@ -23,6 +39,12 @@ body {
 footer {
   text-align: center;
   color: grey;
+}
+
+@media screen and (max-width: 1100px) {
+  #sidebar {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 600px) {
@@ -37,7 +59,7 @@ footer {
   }
 }
 
-nav ul {
+#menu ul {
   list-style-type: none;
   margin: 1em 0;
   padding: 0;
@@ -45,16 +67,43 @@ nav ul {
   background-image: linear-gradient(to right, transparent, var(--yellow), transparent);
 }
 
-nav li {
+#menu li {
   display: inline-block;
   margin: 0;
   padding: 0;
 }
 
-nav li a, nav li p {
+#menu li a, nav li p {
   display: block;
   margin: 0;
   padding: 0.2em 0.6em;
+}
+
+#sidebar h2 {
+  font-weight: normal;
+  margin: 0.8em 0;
+}
+
+#TableOfContents ul {
+  list-style-type: none;
+  margin: 0.8em 0;
+  padding: 0;
+}
+
+#TableOfContents li {
+  margin: 0.4em 0;
+  padding: 0;
+}
+
+#TableOfContents > ul > li > ul {
+  margin: 0;
+  font-size: 90%;
+}
+
+#TableOfContents > ul > li > ul > li {
+  margin-left: 1em;
+  margin-top: 0.2em;
+  margin-bottom: 0.2em;
 }
 
 p {
@@ -272,4 +321,3 @@ td {
     max-width: 400pt;
   }
 }
-
