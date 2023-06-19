@@ -27,7 +27,7 @@ body {
 #sidebar {
   position: fixed;
   top: 0;
-  width: calc((100% - var(--stripewidth))/2 - 1rem);
+  width: calc((100% - var(--stripewidth))/2 - 10rem);
   font-size: 15px;
   padding: 3rem 2rem;
 }
