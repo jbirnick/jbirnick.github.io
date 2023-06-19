@@ -84,6 +84,15 @@ footer {
   margin: 0.8em 0;
 }
 
+#sidebar a {
+  color: black;
+  opacity: 0.5;
+}
+
+#sidebar a.active {
+  opacity: 1;
+}
+
 #TableOfContents ul {
   list-style-type: none;
   margin: 0.8em 0;
