@@ -268,7 +268,7 @@ I think, in the end, we should all switch to Typst and make it the new typesetti
 The question is just *when* to switch to Typst.
 
 If you need advanced graphics, you might not be able to switch yet.
-(Though you might be able to produce the graphics externally and then include them as e.g. SVGs.)
+(Though you can produce the graphics externally and then include them as e.g. SVGs.)
 
 If you are a pure mathematician that mostly writes text anyways, you can switch right now already.
 Check out Typst's [Guide for LaTeX users](https://typst.app/docs/guides/guide-for-latex-users/).
