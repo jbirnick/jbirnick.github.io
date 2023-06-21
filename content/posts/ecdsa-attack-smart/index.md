@@ -5,7 +5,7 @@ keywords = []
 author = 'Johann Birnick'
 categories = ['mathematics']
 tags = ['cryptography', 'elliptic curves', '$p$-adic numbers', 'arithmetic geometry']
-publishDate = 2023-02-05
+publishDate = 2023-07-05
 pdf = false
 draft = true
 +++
