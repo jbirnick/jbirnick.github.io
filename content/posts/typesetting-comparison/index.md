@@ -202,7 +202,7 @@ You can find the resulting PDF [here](typst-preview.pdf).
 
 ## Comparison
 
-{{< raw >}}<img src="logo_latex.svg" class="floatright" style="height: 2rem">{{< /raw >}}
+{{< raw >}}<img src="logo_latex.svg" class="floatright" style="height: 2rem; margin-top: 0.5rem;">{{< /raw >}}
 
 ### LaTeX
 
@@ -214,7 +214,7 @@ Cons:
 - some basic things are extremely hard or impossible to build
 - incompatible packages
 
-{{< raw >}}<img src="logo_context.svg" class="floatright" style="height: 2rem">{{< /raw >}}
+{{< raw >}}<img src="logo_context.svg" class="floatright" style="height: 2rem; margin-top: 0.5rem;">{{< /raw >}}
 
 ### ConTeXt
 
@@ -227,7 +227,7 @@ Pros:
 Cons:
 - has a few little bugs (and in some discussions, one gets the impression that it's not implemented completely clean, but that might be due to the TeX basis)
 
-{{< raw >}}<img src="logo_typst.svg" class="floatright" style="height: 2.5rem">{{< /raw >}}
+{{< raw >}}<img src="logo_typst.svg" class="floatright" style="height: 2.5rem; margin-top: 0.5rem;">{{< /raw >}}
 
 ### Typst
 
