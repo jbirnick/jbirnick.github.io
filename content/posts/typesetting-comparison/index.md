@@ -238,14 +238,14 @@ Pros:
 - has a collaborative online platform
 
 Cons:
-- right now still needs some frequently used features
+- some in the TeX world rather basic features are not yet implemented
 
 ## Isn't it hard to switch?
 
 For **ConteXt**, it's not hard at all.
 As it is based on TeX, the syntax is *very* similar to LaTeX.
 Most importantly, the math mode syntax is exactly the same.
-Also, you can continue to use TikZ and other LaTeX packages, so also graphics shouldn't be a problem.
+Also, you can continue to use TikZ and other LaTeX packages, so even graphics shouldn't be a problem.
 So you can switch basically instantly, instructions are on their website.
 If you don't know how you can achieve a particular result, just ask on their mailing list.
 
@@ -267,7 +267,7 @@ I think, in the end, we should all switch to Typst and make it the new typesetti
 
 The question is just *when* to switch to Typst.
 
-If you need advanced graphics, you might not be able to switch right now already.
+If you need advanced graphics, you might not be able to switch yet.
 (Though you might be able to produce the graphics externally and then include them as e.g. SVGs.)
 
 If you are a pure mathematician that mostly writes text anyways, you can switch right now already.
