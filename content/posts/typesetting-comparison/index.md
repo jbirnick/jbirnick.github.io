@@ -135,8 +135,8 @@ Normal text can be formatted with Markdown-like syntax.
 The math mode syntax is completely new, which makes it much more concise.
 
 Behind the scenes, the compiler is implemented in Rust.
-They also have developed other tools, which allow for example a live preview via incremental compilation.
-They also have a web platform, where you can also collaborate with others on a document.
+They have also developed other tools, which allow for example a live preview via incremental compilation.
+They also have a web platform to (simultaneously) collaborate with others on a document.
 
 Generally, they try to use the latest technologies, standards and design styles.
 You can easily use any font you would like, and also different math fonts.
