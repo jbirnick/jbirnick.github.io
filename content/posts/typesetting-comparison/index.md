@@ -275,7 +275,7 @@ If you are a pure mathematician that mostly writes text anyways, you can switch 
 Check out Typst's [Guide for LaTeX users](https://typst.app/docs/guides/guide-for-latex-users/).
 In between, you should have a look whether Typst already supports all the features you need.
 
-For example, I already use it for my CV and writing letters.
+For example, I already use it for my CV and for writing letters.
 One feature I am still missing for writing e.g. a thesis in Typst, is the ability to wrap text around a floating image.
 
 I will update you when there are big steps forward in Typst.
