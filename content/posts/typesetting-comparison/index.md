@@ -131,7 +131,7 @@ To find out more about ConTeXt, have a look at their website.
 
 **Typst**, on the other hand, can be seen as a complete TeX rewrite with fundamentally new design choices.
 It has aspects of a (more modern) programming language.
-Normal text can be formatted with Markdown syntax.
+Normal text can be formatted with Markdown-like syntax.
 The math mode syntax is completely new, which makes it much more concise.
 
 Behind the scenes, the compiler is implemented in Rust.
@@ -257,6 +257,8 @@ There are also no real alternatives available yet, though users are already star
 Lastly, researchers often ask if it's still possible to upload the result to [**arXiv**](https://arxiv.org/).
 The answer is *yes*.
 You can just upload the PDF and this is usually accepted for both ConTeXt and Typst.
+Of course, some journals still require you to submit LaTeX.
+Some other journals, however, only require you to submit a PDF following a certain style specification.
 
 ## Conclusion - what should I use?
 
@@ -269,6 +271,11 @@ The question is just *when* to switch to Typst.
 
 If you need advanced graphics, you might not be able to switch yet.
 (Though you can produce the graphics externally and then include them as e.g. SVGs.)
-
 If you are a pure mathematician that mostly writes text anyways, you can switch right now already.
 Check out Typst's [Guide for LaTeX users](https://typst.app/docs/guides/guide-for-latex-users/).
+In between, you should have a look whether Typst already supports all the features you need.
+
+For example, I already use it for my CV and writing letters.
+One feature I am still missing for writing e.g. a thesis in Typst, is the ability to wrap text around a floating image.
+
+I will update you when there are big steps forward in Typst.
