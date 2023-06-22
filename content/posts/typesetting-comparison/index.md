@@ -252,7 +252,7 @@ If you don't know how you can achieve a particular result, just ask on their mai
 For **Typst**, the syntax *is* different, so switching takes a bit longer.
 But, usually, the syntax is *better*, so you will be happy to have made the switch.
 For graphics, however, it will be a hard switch, as you don't have e.g. TikZ .
-There are also no real alternatives available yet, though users are already starting to build some amazing-looking libraries -- just have a look at the Typst Discord.
+There are also no real alternatives available yet, though users are already starting to build some amazing-looking libraries -- just have a look [here](https://github.com/qjcg/awesome-typst) and at the Typst Discord.
 
 Lastly, researchers often ask if it's still possible to upload the result to [**arXiv**](https://arxiv.org/).
 The answer is *yes*.
