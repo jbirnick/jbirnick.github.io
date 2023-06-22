@@ -271,8 +271,8 @@ The question is just *when* to switch to Typst.
 
 If you need advanced graphics, you might not be able to switch yet.
 (Though you can produce the graphics externally and then include them as e.g. SVGs.)
-If you are a pure mathematician that mostly writes text anyways, you can switch right now already.
-Check out Typst's [Guide for LaTeX users](https://typst.app/docs/guides/guide-for-latex-users/).
+If you are a pure mathematician that mostly writes text anyways, you can switch right now already;
+check out Typst's [Guide for LaTeX users](https://typst.app/docs/guides/guide-for-latex-users/).
 If you are in between, you should have a look whether Typst already supports all the features you need.
 
 For example, I already use it for my CV and for writing letters.
