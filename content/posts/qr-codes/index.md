@@ -233,7 +233,7 @@ In our case, `0100`, this means we use byte mode.
 Other modes exist as shortcuts to often-used byte ranges.)
 Codeword 3 contains the character count, namely 27.
 
-Codewords 4 to 30 then encode the string `https://jbirnick.github.io/` in UTF8.
+Codewords 4 to 30 then encode the string `https://jbirnick.github.io/` in UTF-8.
 In this case, each character takes only one codeword.
 
 Codeword 31 is `00000000`, the *terminator*.
