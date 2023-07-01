@@ -242,7 +242,7 @@ Cons:
 
 ## Isn't it hard to switch?
 
-For **ConteXt**, it's not hard at all.
+For **ConTeXt**, it's not hard at all.
 As it is based on TeX, the syntax is *very* similar to LaTeX.
 Most importantly, the math mode syntax is exactly the same.
 Also, you can continue to use TikZ and other LaTeX packages, so even graphics shouldn't be a problem.
