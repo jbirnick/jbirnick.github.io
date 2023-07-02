@@ -9,4 +9,4 @@ outputs = ['HTML','RSS']
 On this blog, I aim to present mathematical ideas that I find interesting.
 If my viewpoint can help people to better understand a concept, I am more than happy.
 
-You can find an RSS feed of the posts [here](index.xml).
+An RSS feed of the posts can be found [here](index.xml).
