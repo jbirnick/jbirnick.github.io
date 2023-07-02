@@ -3,7 +3,7 @@ languageCode = 'en-us'
 title = 'Personal Website of Johann&nbsp;Birnick'
 theme = 'mathematician'
 copyright = 'Copyright © 2022–{year} Johann Birnick'
-disableKinds = ['taxonomy', 'term', 'RSS']
+disableKinds = ['taxonomy', 'term']
 
 [params]
 author = 'Johann Birnick'
@@ -17,3 +17,10 @@ linkify = false
 
 [markup.highlight]
 noClasses = "false"
+
+[outputs]
+  page = ['HTML']
+  home = ['HTML']
+  section = ['HTML']
+  taxonomy = ['HTML']
+  term = ['HTML']

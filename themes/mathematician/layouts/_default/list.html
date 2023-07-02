@@ -1,6 +1,6 @@
 {{ define "main" }}  
 {{ .Content }}  
-{{ range .Pages }}
+{{ range .RegularPages }}
 <article>
 <a style="color: inherit;" href="{{ .RelPermalink }}">
 {{ .Render "preview"}}
