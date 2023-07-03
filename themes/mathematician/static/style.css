@@ -26,10 +26,9 @@ body {
 
 #sidebar {
   position: fixed;
-  top: 0;
   width: calc((100% - var(--stripewidth))/2 - 10rem);
   font-size: 15px;
-  padding: 3rem 2rem;
+  margin: 2rem 2rem;
 }
 
 .hide {
@@ -149,7 +148,7 @@ h1 {
 
 #posthead {
   overflow: auto;
-  margin: 0.5em 0em;
+  padding: 0.5rem 0em;
 }
 
 #posthead a {

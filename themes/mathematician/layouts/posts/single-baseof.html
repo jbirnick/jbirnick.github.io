@@ -7,6 +7,9 @@
   <body>
   <div id=sidebar class="noprint">
     <aside>
+    {{ with .Resources.GetMatch "cover.*" }}
+    <img src="{{ .RelPermalink }}" style="display: block; width: 128px; height: 128px; margin-bottom: 2rem;">
+    {{ end }}
     {{- partial "toc.html" . -}}
     </aside>
   </div>
