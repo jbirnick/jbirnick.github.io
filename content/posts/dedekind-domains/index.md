@@ -428,7 +428,7 @@ According to our philosophy, this field will be the function field of a scheme $
 If we started with the Dedekind domain of a curve, this will be a curve as well, and hence we can visualize it.
 
 Let's look what it gives in our example.
-Since our Galois group only has size 2, we can only get either the full parabola or just the real affine line, there is nothin inbetween.
+Since our Galois group only has size 2, we can only get either the full parabola or just the real affine line, there is nothing inbetween.
 Reading off the previous table, we see that we get the parabola for $\p_b$ and $\p_c$, and we get the real affine line for $\p_a$.
 
 ## Inertia Group+Field

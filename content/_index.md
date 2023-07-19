@@ -1,36 +1,40 @@
 +++
 title = 'Personal Website of Johann Birnick'
 description = 'The personal website of Johann Birnick, a mathematician and technologist.'
-keywords = ['Birnick', 'Johann', 'math', 'mathematics', 'research', 'number theory', 'arithmetic geometry', 'algebraic geometry', 'cryptography', 'computation', 'algorithms', 'technology']
+keywords = ['Birnick', 'Johann', 'math', 'mathematics', 'research', 'number theory', 'arithmetic geometry', 'algebraic geometry', 'cryptography', 'computation', 'algorithms', 'technology', 'application', 'applied math', 'industry', 'engineering', 'machine learning', 'artificial intelligence']
 menu.main.name = 'About'
 weight = 10
 layout = 'single'
-lastmod = 2023-03-04
+lastmod = 2023-07-13
 +++
 {{< figure src="photo.webp" class="floatright maxgolden" alt="A photo of me on a hike trip." >}}
 
-I'm a math student interested in number theory, arithmetic geometry, and computational aspects of the previous.
-Currently I do Part III in Cambridge, before that I've been at ETH Zurich.
-At this point, apart from Algebraic Number Theory and Algebraic Geometry in general, I'm particularly interested in:
+Hi, I'm Johann. I'm interested in mathematics and computer science.
+More concretely, here is a list with some of my interests, roughly ordered by their usefulness in the real world / industry (which is also roughly the order in which I became interested in them):
 
-- Modular/Automorphic Forms and their correspondence to algebraic & geometric objects
-- Algebraic+Elliptic Curves, from all perspectives
-- quaternion algebras & similar:
-  * noncommutative geometry
-  * shimura curves attached to them
-  * Jacquet–Langlands correspondence
-- Galois Theory of schemes, relation between Galois groups and fundamental groups
-- $p$-adic methods, and analogues for (complex-)analytic notions in this setting (like integration)
-- Galois representations and their role in the Langlands Program
+- arithmetic geometry and its applications to cryptography (& coding theory)
+  * algebraic curves, elliptic curves, and abelian varieties
+  * $p$-adics, and analogs for (complex-)analytic notions in this setting
+  * some algebraic geometry, like Galois Theory of schemes yielding a relation between Galois groups and fundamental groups
+  * modular/automorphic forms, Galois representations, and their relation to algebraic/geometric objects, noncommutative geometry, quaternion algebras
+  * computational aspects of all the previous and computer algebra
+- the language(s) of mathematics and computer science
+  * applying category theory to commputer science, data science, engineering, logic, and other sciences
+  * interactive proof assistants and automatic theorem proving, as well as formal verification of software, and combining computer algebra with formal verification of proofs
+- applied mathematics, optimization, data science
+  * probability and statistics
+  * all sorts of optimization, also in combination with probability/statistics
+  * machine learning
+- artificial intelligence
 
-Before that, I was doing computer science.
-I like explicit and computational aspects of number theory / arithmetic geometry, and also cryptography.
-In fact, breaking elliptic curve based cryptography has been a great motivation for me to learn about the things mentioned above.
-Formally verifiable proofs are also a neat thing.
-Though I don't actively work in that field, I wonder about their foundations, how they can help for *finding* proofs or understanding them, and how they can be combined with computational math.
+Over the last three years, breaking elliptic curve based cryptography has been a great motivation for me to learn about arithmetic geometry.
+That's where I learned about the first block above.
+
+Recently, I (re)broadened my energy to also look into applied math, computer science, and computational engineering.
+**I like to combine elegant theory with useful practice.**
+
+If time allows (not right now, of course!), I would also be interested in an engineering project outside of my "comfort zone", for example involving biotech, chemisty, or mechanical engineering.
 
 If you are at ETH, please have a look at the [undergraduate colloquium](https://zucmap.ethz.ch/), which I have (re)initiated together with Sidd!
 
-**I am looking for a PhD position from summer 2023.**
-
-Feel free to contact me via firstname.lastname@hotmail.de ([PGP Public Key](pgp-public-key.asc)).
+Feel free to contact me via firstname.lastname@hotmail.de ([PGP Public Key](pgp-public-key.asc)), I'm always happy to speak about math, computer science, engineering, life, and everything else.
