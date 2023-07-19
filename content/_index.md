@@ -5,7 +5,7 @@ keywords = ['Birnick', 'Johann', 'math', 'mathematics', 'research', 'number theo
 menu.main.name = 'About'
 weight = 10
 layout = 'single'
-lastmod = 2023-07-13
+lastmod = 2023-07-19
 +++
 {{< figure src="photo.webp" class="floatright maxgolden" alt="A photo of me on a hike trip." >}}
 
