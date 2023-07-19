@@ -31,6 +31,7 @@ Over the last three years, breaking elliptic curve based cryptography has been a
 That's where I learned about the first block above.
 
 Recently, I (re)broadened my energy to also look into applied math, computer science, and computational engineering.
+
 **I like to combine elegant theory with useful practice.**
 
 If time allows (not right now, of course!), I would also be interested in an engineering project outside of my "comfort zone", for example involving biotech, chemisty, or mechanical engineering.
