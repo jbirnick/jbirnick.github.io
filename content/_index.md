@@ -16,7 +16,7 @@ More concretely, here is a list with some of my interests, roughly ordered by th
   * algebraic and elliptic curves
   * $p$-adics, and analogs for (complex-)analytic notions over them
   * some algebraic geometry, like Galois Theory of schemes yielding a relation between Galois groups and fundamental groups
-  * (automorphic forms, Galois representations, their relation to algebraic/geometric objects, noncommutative geometry, quaternion algebras)
+  * (automorphic forms, Galois representations, their relation to algebraic / geometric objects, noncommutative geometry, quaternion algebras)
   * computational aspects of all the previous and computer algebra
 - the language(s) of mathematics and computer science
   * applying category theory to commputer science, data science, engineering, logic, and other sciences
