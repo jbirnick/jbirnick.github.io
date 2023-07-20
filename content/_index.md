@@ -24,6 +24,7 @@ More concretely, here is a list with some of my interests, roughly ordered by th
 - applied mathematics, optimization, data science
   * probability and statistics
   * all sorts of (at the time I prefer continuous) optimization, also in combination with probability/statistics
+  * computational optimal transport
   * machine learning
 - artificial intelligence
 
