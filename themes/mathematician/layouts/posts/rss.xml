@@ -5,7 +5,7 @@
     <link>{{ .Permalink }}</link>
     <description>{{ .Description }}</description>
     <language>{{ site.LanguageCode }}</language>
-    <copyright>{{ .Site.Copyright}} </copyright>
+    <copyright>{{ replace .Site.Copyright "{year}" now.Year }}</copyright>
     {{ range .RegularPages }}
     <item>
       <title>{{ .Title }}</title>
