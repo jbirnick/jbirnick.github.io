@@ -182,7 +182,7 @@ Before we decode the data, let's check how the error correction is constructed.
 For error correction, each codeword is interpreted as an element of $$\F_2[t]/(t^8  + t^4 + t^3 + t^2 + 1) \cong: \F_{2^8} = \F_2(\alpha)$$
 with $\alpha := \bar{t}$. Namely, the codeword $b_7 b_6 \cdots b_0$ is interpreted as $b_7 \alpha^7 + \dots +  b_0$.
 
-(For non-mathematicians: $\F$ stands for [finite field](https://en.wikipedia.org/wiki/Finite_field).)
+(For non-mathematicians: $\F_q$ is the [finite field](https://en.wikipedia.org/wiki/Finite_field) with $q$ elements.)
 
 Now we form a polynomial $D \in \F_{2^8}[X]$ whose coefficients are the data codewords (interpreted as elements of $\F_{2^8}$).
 The first data codeword is the coefficient of $X^{33}$ and the 34th (i.e. last) data codeword is the constant coefficient.
