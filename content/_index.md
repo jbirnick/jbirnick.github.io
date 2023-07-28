@@ -19,7 +19,7 @@ More concretely, here is a list with some of my interests, roughly ordered by th
   * (automorphic forms, Galois representations, their relation to algebraic / geometric objects, noncommutative geometry, quaternion algebras)
   * computational aspects of all the previous and computer algebra
 - the language(s) of logic and computation
-  * applying category theory to commputing, data science, engineering, logic, AI, and other sciences
+  * applying category theory to computing, data science, engineering, logic, AI, and other sciences
   * interactive proof assistants and automatic theorem proving, as well as formal verification of software, and combining computer algebra with formal verification of proofs
 - applied mathematics, optimization, data science
   * probability and statistics
