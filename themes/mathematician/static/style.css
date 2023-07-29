@@ -235,6 +235,10 @@ li.conference:not(:last-child) {
   line-height: 0.85em !important;
 }
 
+.katex-display {
+  overflow-x: auto;
+}
+
 pre {
   overflow-x: auto;
 }
