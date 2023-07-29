@@ -235,6 +235,10 @@ li.conference:not(:last-child) {
   line-height: 0.85em !important;
 }
 
+pre {
+  overflow-x: auto;
+}
+
 pre, code, .chroma {
   font-family: 'Cousine', monospace;
   font-size: 0.9em;
