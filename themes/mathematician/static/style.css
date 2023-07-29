@@ -236,6 +236,7 @@ li.conference:not(:last-child) {
 }
 
 .katex-display {
+  overflow: visible;
   overflow-x: auto;
 }
 
