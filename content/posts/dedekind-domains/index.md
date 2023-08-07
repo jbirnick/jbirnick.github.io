@@ -42,12 +42,12 @@ The integer ring of a number field is clearly an integral domain as it's the sub
 It's integrally closed, because it's defined as an integral closure (of $\Z$ inside the number field), and it's a basic (though non-trivial) Lemma that integral closures are indeed integrally closed.
 Noetherianness and dimension 1 are slightly more involved to prove, you should look it up in a textbook.
 
-Now what about curves? What do they have to do with Dedekind domains?
+Now how about curves? What do they have to do with Dedekind domains?
 First, let's review what an algebraic curve *is*.
 We will use scheme notation, but don't worry; we won't use any scheme theory and you don't even need to know what a scheme is.
 
 Take any ring $R$. We define {{< raw >}}$\Spec R \coloneqq \{ \text{$p \subset R$ prime}\}${{< /raw >}} to be the set of all prime ideals of $R$.
-It is the underlying set of the scheme associated to $R$ (which is also called $\Spec R$), and it's elements (the prime ideals) are the *points* of the scheme.
+It is the underlying set of the scheme associated to $R$ (which is also called $\Spec R$), and its elements (the prime ideals) are the *points* of the scheme.
 This is motivated by the theory of varieties:
 For any algebraically closed field $k$ and polynomials $f_1, \dots, f_r \subseteq k[X_1,\dots,X_n]$, the maximal ideals of $k[X_1,\dots,X_n]/(f_1,\dots,f_r)$ correspond exactly to the solution points {{< raw >}}$\{p \in k^n \mid \forall i : f_i(p) = 0 \}${{< /raw >}}.
 So we might just *define* the variety as the maximal ideals of $k[X_1,\dots,X_n]/(f_1,\dots,f_r)$.
@@ -62,7 +62,7 @@ if $f = gh$ then $k[X,Y]/(f) \cong k[X,Y]/(g) \times k[X,Y]/(h)$ and hence by fu
 We will only look at *smooth* curves, where we won't give the definition of smooth, but in our case of plane affine curves it's similar to the definition of smooth varieties.
 
 Ok, but what does this have to do with Dedekind domains?
-Every curve has it's *coordinate ring*.
+Every curve has its *coordinate ring*.
 In our case of $\Spec k[X,Y]/(f)$, the coordinate ring is exactly $k[X,Y]/(f)$.
 Now:
 
@@ -88,7 +88,7 @@ We have an analogy:
 | integer ring of the number field | coordinate ring of the curve |
 {{< /center >}}
 
-In both cases we have a Dedekind domain $A$ and it's fraction field $K$, and we can develop the theory in this abstract setup.
+In both cases we have a Dedekind domain $A$ and its fraction field $K$, and we can develop the theory in this abstract setup.
 
 ## Primes = Points
 
@@ -97,7 +97,7 @@ Fix a Dedekind domain $A$.
 We already learned that the points of $\Spec A$ are the prime ideals of $A$.
 All prime ideals except $(0)$ are maximal because $A$ has dimension 1.
 $(0)$ is also called the *generic point*, but that's not so relevant for us.
-For completeness, we will include it in drawings (always on the left side), but we won't bother with it's interpretation.
+For completeness, we will include it in drawings (always on the left side), but we won't bother with its interpretation.
 Here is a picture of $\Spec \Z$:
 
 {{< figure src="SpecZ.svg" >}}
@@ -156,7 +156,7 @@ They can be also seen as unions (Galois orbits) of complex points with ...
 
 What exactly are the complex points of which they are a union?
 For points $(\overline{X}-x,\overline{Y}^2 + y^2)$ in the second class, they are $(\overline{X}-x,\overline{Y}-iy)$ and $(\overline{X}-x,\overline{Y}+iy)$.
-In the picture, I drew a dotted line for these complex points and connected them (in one case) using blue ink, which stands for our point of the second class. (Compare with my picture of the real affine line: There I only drew the upper half plane, which was representing one of the two complex points of interest. If I was consistent, I should have drawn the whole complex plane and connected a point to it's complex conjugate with blue ink.)
+In the picture, I drew a dotted line for these complex points and connected them (in one case) using blue ink, which stands for our point of the second class. (Compare with my picture of the real affine line: There I only drew the upper half plane, which was representing one of the two complex points of interest. If I was consistent, I should have drawn the whole complex plane and connected a point to its complex conjugate with blue ink.)
 For the third class it might be confusing at first sight:
 We start with an $x$-coordinate that already corresponds to two complex points.
 Because $y$ is a square root of $x$, we should get four complex points out of this.
@@ -183,7 +183,7 @@ Very important to notice here is that I *made a choice*:
 I started with the $x$-coordinate (and then solved for $y$).
 Why not start with the $y$-coordinate? Then we don't need to find square roots, but just square the value!
 Indeed, that would be another approach.
-In mathematical terms, I never just looked at my parabola on it's own, I was actually looking at the morphism of algebraic curves which is the projection to the $x$-axis!
+In mathematical terms, I never just looked at my parabola on its own, I was actually looking at the morphism of algebraic curves which is the projection to the $x$-axis!
 To be precise, I started with a point on the $x$-axis and then was finding preimages under this morphism.
 An alternative approach would be to look at the projection to the $y$-axis, or to any other line.
 It will yield different partitions into classes of the points on the parabola.
@@ -220,7 +220,7 @@ $$
 
 It is the *$AKLB$-setup*.
 Start with a Dedekind domain $A$.
-We have it's field of fractions $K$.
+We have its field of fractions $K$.
 Take a finite extension $L/K$.
 Lastly, take the integral closure of $A$ in $L$ and call it $B$.
 This yields the commutative diagram on the right, where:
