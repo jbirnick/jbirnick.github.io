@@ -12,7 +12,7 @@ lastmod = 2023-07-19
 Hi, I'm Johann. I'm interested in mathematics and computer science.
 More concretely, here is a list with some of my interests, roughly ordered by their usefulness in the real world / industry (which is also roughly the order in which I became interested in them):
 
-- arithmetic geometry and its applications to cryptography (& coding theory)
+- arithmetic geometry and its applications to cryptography and coding theory
   * algebraic and elliptic curves
   * $p$-adics, and analogs for (complex-)analytic notions over them
   * some algebraic geometry, like Galois Theory of schemes yielding a relation between Galois groups and fundamental groups
@@ -21,11 +21,15 @@ More concretely, here is a list with some of my interests, roughly ordered by th
 - the language(s) of logic and computation
   * applying category theory to computing, data science, engineering, logic, AI, and other sciences
   * interactive proof assistants and automatic theorem proving, as well as formal verification of software, and combining computer algebra with formal verification of proofs
-- applied mathematics, optimization, data science
-  * probability and statistics
+- "nonlinear algebra"
+  * applying (real, computational, tropical) algebraic geometry to statistics, differential equations, and optimization
+- optimization and its relation to data science
   * all sorts of (mostly continuous) optimization, also in combination with probability/statistics
   * computational optimal transport
-  * applying algebraic geometry
+- (computational) statistics / data science
+  * probability and statistics
+  * inverse problems
+  * causality and its interplay with the next two bulletpoints
   * machine learning
 - artificial intelligence
 
