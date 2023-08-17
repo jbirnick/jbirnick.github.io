@@ -19,7 +19,9 @@
 <p>{{ $currentMonth }}</p>
 {{ end }}
 
-<li class="conference"><a href="{{ .homepage }}">{{ .title }}</a><br><small>{{ with .meeting_type }}[{{ . }}] {{ end }}{{ dateFormat "January 2" .start_date }} – {{ if ne (dateFormat "2006" .end_date) $currentYear }}{{ dateFormat "January 2 (2006)" .end_date}}{{ else }}{{ if ne (dateFormat "1" .start_date) (dateFormat "1" .end_date) }}{{ dateFormat "January 2" .end_date}}{{ else }}{{ dateFormat "2" .end_date}}{{ end }}{{ end }}{{ with .institution }}, {{ . }}{{ end }}{{ with .city }}, {{ . }}{{ end }}, {{ .country }}</small></li>
+<li class="conference"><a href="{{ .homepage }}">{{ .title }}</a><br><small>
+
+{{ if ne .modified nil }}{{ $dateModified := time .modified }}{{ $secondsSinceModified := sub now.Unix $dateModified.Unix }}{{ $daysSinceModified := div (add $secondsSinceModified 86400) 86400 }}{{ $wordDays := "days" }}{{ if eq $daysSinceModified 1 }}{{ $wordDays = "day" }}{{ end }}{{ $wordModified := "▶ modified" }}{{ if eq .modified .created }}{{ $wordModified = "▶ added" }}{{ end }}{{ if le $daysSinceModified 30 }}<span style="color: green; font-weight: bold;">[{{ $wordModified }} {{ $daysSinceModified }} {{ $wordDays }} ago]</span> {{ end }}{{ end }}{{ with .meeting_type }}[{{ . }}] {{ end }}{{ dateFormat "January 2" .start_date }} – {{ if ne (dateFormat "2006" .end_date) $currentYear }}{{ dateFormat "January 2 (2006)" .end_date}}{{ else }}{{ if ne (dateFormat "1" .start_date) (dateFormat "1" .end_date) }}{{ dateFormat "January 2" .end_date}}{{ else }}{{ dateFormat "2" .end_date}}{{ end }}{{ end }}{{ with .institution }}, {{ . }}{{ end }}{{ with .city }}, {{ . }}{{ end }}, {{ .country }}</small></li>
 
 {{ end }}
 </ul>

@@ -18,7 +18,8 @@ On this page I collect links to useful webpages, nice people, and other things.
 
 ## Conferences / Programs / Meetings
 
-Below are all [MathMeetings.net](https://mathmeetings.net/) entries that have the number theory tag.
+Below are all [MathMeetings.net](https://mathmeetings.net/) entries which have the number theory tag.
+Additions and modifications from ≤ 30 days ago are marked.
 
 {{< conferencelist >}}
 
