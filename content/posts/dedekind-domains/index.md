@@ -1,5 +1,5 @@
 +++
-title = 'Visualizating Decomposition in Number Fields with Algebraic Curves'
+title = 'Visualizing Decomposition in Number Fields with Algebraic Curves'
 description = 'I show how decomposition theory of number fields (ramification, splitting, inertness) is applicable to algebraic curves, which allows me to visualize the concepts at the example of a parabola.'
 keywords = ['math', 'mathematics', 'number theory', 'algebraic curves', 'Dedekind domains', 'ramification', 'decomposition group', 'inertia group']
 author = 'Johann Birnick'
@@ -10,10 +10,10 @@ pdf = false
 +++
 {{< hideraw >}}$\gdef\Z{\mathbb{Z}}\gdef\Q{\mathbb{Q}}\gdef\F{\mathbb{F}}\gdef\C{\mathbb{C}}\gdef\Pr{\mathbb{Pr}}\gdef\Af{\mathbb{Af}}\gdef\a{\mathfrak{a}}\gdef\p{\mathfrak{p}}\gdef\P{\mathfrak{P}}\gdef\Spec{\operatorname{Spec}}\gdef\Gal{\operatorname{Gal}}${{< /hideraw >}}
 
-Take an extension $L/K$ of number fields. In a first course in algebraic number theory one is introduced to the basic decomposition theory of this extension: splitting, inertness, ramification, decomposition group, inertia group.
+Take an extension $L/K$ of number fields. In a first course in algebraic number theory, one is introduced to the basic decomposition theory of this extension: splitting, inertness, ramification, decomposition group, inertia group.
 Now, we have the same notions with the same results for morphisms of smooth algebraic curves!
 The reason being that they also give extensions $B/A$ of Dedekind domains, and the theory works in the generality of Dedekind domain extensions.
-In this post, we will visualize the above decomposition concepts for curves.
+Hence, in this post, we will visualize the above decomposition concepts using curves.
 
 {{< figure src="interaction.svg" >}}
 
@@ -29,7 +29,7 @@ Usually, they are defined as rings $A$ which are:
 
 This looks quite technical and arbitrary, but the most important fact is
 
-**Theorem.** Every non-zero ideal $0 \neq \a \subseteq A$ of a Dedekind domain $A$ can be uniquely written as a product of prime ideals $\a = \p_1^{e_1} \cdots \p_r^{e_r}$.
+**Theorem.** Every non-zero ideal $0 \neq \a \subseteq A$ of a Dedekind domain $A$ can be written uniquely as a product of prime ideals $\a = \p_1^{e_1} \cdots \p_r^{e_r}$.
 
 and this is also the defining property of them, in the sense that every integral domain which satisfies the theorem above is a Dedekind domain.
 The fact
@@ -39,19 +39,22 @@ The fact
 is usually proved in an algebraic number theory course.
 Let's quickly review the proof.
 The integer ring of a number field is clearly an integral domain as it's the subring of a field.
-It's integrally closed, because it's defined as an integral closure (of $\Z$ inside the number field), and it's a basic (though non-trivial) Lemma that integral closures are indeed integrally closed.
+It's integrally closed, because it's defined as an integral closure (of $\Z$ inside the number field), and it's a basic (though nontrivial) Lemma that integral closures are indeed integrally closed.
 Noetherianness and dimension 1 are slightly more involved to prove, you should look it up in a textbook.
 
-Now how about curves? What do they have to do with Dedekind domains?
+Now what about curves? What do they have to do with Dedekind domains?
 First, let's review what an algebraic curve *is*.
 We will use scheme notation, but don't worry; we won't use any scheme theory and you don't even need to know what a scheme is.
 
-Take any ring $R$. We define {{< raw >}}$\Spec R \coloneqq \{ \text{$p \subset R$ prime}\}${{< /raw >}} to be the set of all prime ideals of $R$.
+Take any ring $R$. We define {{< raw >}}$\Spec R \coloneqq \{ \text{$\p \subset R$ prime}\}${{< /raw >}} to be the set of all prime ideals of $R$.
 It is the underlying set of the scheme associated to $R$ (which is also called $\Spec R$), and its elements (the prime ideals) are the *points* of the scheme.
+
 This is motivated by the theory of varieties:
 For any algebraically closed field $k$ and polynomials $f_1, \dots, f_r \subseteq k[X_1,\dots,X_n]$, the maximal ideals of $k[X_1,\dots,X_n]/(f_1,\dots,f_r)$ correspond exactly to the solution points {{< raw >}}$\{p \in k^n \mid \forall i : f_i(p) = 0 \}${{< /raw >}}.
 So we might just *define* the variety as the maximal ideals of $k[X_1,\dots,X_n]/(f_1,\dots,f_r)$.
-In scheme theory we more generally take all *prime* ideals (for different reasons).
+In scheme theory we more generally take all *prime* ideals instead of just the maximal ones.[^5]
+
+[^5]: This has several reasons.
 
 To state what a curve in the scheme-theoretic sense is, you need quite some scheme theory.
 But we will only work with *plane affine* curves:
@@ -68,12 +71,12 @@ Now:
 
 **Proposition.** The coordinate ring of smooth alg. curve is a Dedekind domain.
 
-[^1]: Notice how integrally closedness follows essentially by definition in the case of number fields, but is highly non-trivial for smooth curves.
+[^1]: Notice how integrally closedness follows essentially by definition in the case of number fields, but is highly nontrivial for smooth curves.
 
 Let's also review the proof of this.
 That it's an integral domain follows from the scheme being irreducible.
 (For example, remember that in our case we required $f$ to be irreducible, which makes $k[X,Y]/(f)$ an integral domain.)
-It's integrally closed precisely because it's smooth, though the proof is highly non-trivial.[^1]
+It's integrally closed precisely because it's smooth, though the proof is highly nontrivial.[^1]
 Dimension 1 is part of the definition of curve.
 Noetherian is also part of the abstract definition of curve, but note that in our case it also a consequence of the Hilbert basis theorem.
 
@@ -131,17 +134,17 @@ For $\Spec \R[T]$, they are $\R$ for the points of the first class, and $\C$ for
 That's why I put bigger points in the picture for points of the second class.
 Note that the first class of points is the horizontal base line in the picture, whereas the second class of points is the strict upper half plane.
 
-Now we ready to look at a more complicated example.
-It will be the example accompanies us through the rest of the post.
+Now we are ready to look at a more complicated example.
+It will be the example which will accompany us through the rest of the post.
 It is a parabola over the real numbers, namely $\Spec \R[X,Y]/(Y^2 - X)$:
 
 {{< figure src="SpecParabola.svg" >}}
 
-Yes, this is *one* picture, it's all beloning to $\Spec \R[X,Y]/(Y^2 - X)$.
+Yes, this is *one* picture, it's all belonging to $\Spec \R[X,Y]/(Y^2 - X)$.
 Ignoring the generic point, this time we have three classes of points:[^7]
 
 - the points $(\overline{X}-x,\overline{Y}-y)$ with $x \geq 0$ and $y^2 = x$
-- the points $(\overline{X}-x,\overline{Y}^2 + y^2)$ with $y^2 = -x$.
+- the points $(\overline{X}-x,\overline{Y}^2 + y^2)$ with $y^2 = -x$
 - the points $((\overline{X}-a)^2 + b^2, \text{[something]})$ with $a \in \R$ and $b < 0$, and the are two [somethings]s for each choice of $a,b$
 
 [^7]: Let me note that "classes" in this context are not actually intrinsic classes.
@@ -163,7 +166,7 @@ Because $y$ is a square root of $x$, we should get four complex points out of th
 So far so true, but these four points will actually be two real points.
 Before my words get more and more confusing, let's just do the computation for the point in the picture which (as a prime ideal) contains $X^2 +4$.
 This means we are looking at the $x$-coordinate $\pm 2i$, since $(X-2i)(X+2i) = (X^2 + 4)$.
-Taking squareroots we get the four complex points $$(2i, 1+i), (2i, -1-i), (-2i, 1-i),(-2i, -1+i)$$ lying on the parabola.
+Taking square roots we get the four complex points $$(2i, 1+i), (2i, -1-i), (-2i, 1-i),(-2i, -1+i)$$ lying on the parabola.
 The third is the conjugate of the first, and the fourth is the conjugate of the second.
 We get 2 (!) real points $(X^2 + 4, 2Y -X -2)$ and $(X^2 + 4, 2Y + X + 2)$.
 The latter point is just the former with the sign of the $y$-coordinate flipped -- as we would expect it for finding a square root!
@@ -183,11 +186,12 @@ Very important to notice here is that I *made a choice*:
 I started with the $x$-coordinate (and then solved for $y$).
 Why not start with the $y$-coordinate? Then we don't need to find square roots, but just square the value!
 Indeed, that would be another approach.
+
 In mathematical terms, I never just looked at my parabola on its own, I was actually looking at the morphism of algebraic curves which is the projection to the $x$-axis!
 To be precise, I started with a point on the $x$-axis and then was finding preimages under this morphism.
 An alternative approach would be to look at the projection to the $y$-axis, or to any other line.
 It will yield different partitions into classes of the points on the parabola.
-This illustrates how important morphisms are, I even used them when I was trying to analyze an object on its own.
+This illustrates how important morphisms are - I used them even when I was trying to just analyze an object on its own.
 
 **Exercise.** Note that the last example is an algebraic curve analog of a quadratic number field, so let's draw $\Z[i]$.
 Remind yourself of the characterization of prime ideals of $\Z[i]$.
@@ -226,7 +230,7 @@ Lastly, take the integral closure of $A$ in $L$ and call it $B$.
 This yields the commutative diagram on the right, where:
 
 - all maps are injective
-- $A,B$ are Dedekind domains (that's highly non-trivial for $B$!)
+- $A,B$ are Dedekind domains (that's highly nontrivial for $B$!)
 - $K,L$ are the fraction fields of $A,B$
 
 Any extension of number fields satisfies this setup (where $A,B$ are the integer rings).
@@ -285,7 +289,7 @@ We leave out all the green stuff, and therefore $\p_d$, because it makes the pic
 
 {{< figure src="ProjectionXrestricted.svg" >}}
 
-But you should study $\p_d$ alongside, just as the projection to the $y$-axis.
+But you should study $\p_d$ alongside, and similarly the projection to the $y$-axis.
 
 **Exercise.** Look at the morphism of algebraic curves induced by: {{< raw >}}$$\begin{align*}\R[Y] &\hookrightarrow \R[X,Y]/(Y^2 - X) \\ Y &\mapsto \overline{Y}\end{align*}$${{< /raw >}} (This the projection of the parabola to the $y$-axis.) Draw it. Analyze all the notions of decomposition that we will analyze hereafter also for this morphism.
 
@@ -335,10 +339,10 @@ Here is the picture of our morphism again, with annotated ramification indices a
 
 Generally, we see that points above $(X-x) \in \Spec \R[X]$ ...
 - ... split into two primes if $x > 0$.
-- ... ramify for $if x=0$
+- ... ramify if $x=0$
 - ... are inert if $x < 0$
 
-**Exercise.** What about points above $((X-a)^2 + b^2)$? You already gave the factorization of $\p_d$, so that gives you ramification indeces. What about inertia degrees?
+**Exercise.** What about points above $((X-a)^2 + b^2)$? You already gave the factorization of $\p_d$, so that gives you ramification indices. What about inertia degrees?
 
 ## The Fundamental Identity
 
@@ -354,7 +358,7 @@ Geometrically, the fundamental identity just means that every point in $\Spec A$
 
 ## Galois extensions
 
-From now on assume that the extension $L/K$ in our $AKLB$-setup is Galois.
+From now on, assume that the extension $L/K$ in our $AKLB$-setup is Galois.
 Let's say we have a prime $\P$ above $\p$.
 (At this point, it should be clear what this means!)
 Then for $\sigma \in \Gal(L/K)$, the set $\sigma(\P)$ is again a prime ideal lying above $\p$ (verify!).
@@ -442,7 +446,7 @@ So let's just assume it.
 
 We define the kernel of this to be the *inertia group*:
 
-{{< raw >}}$$I_\P \coloneqq \ker (D_\P \to \Gal(L/\P, K/\p)) = \{ \sigma \in D_\P \mid \forall x \in B : \sigma(x) \equiv x \mod \P \}$${{< /raw >}}
+{{< raw >}}$$\begin{align*}I_\P &\coloneqq \ker (D_\P \to \Gal(L/\P, K/\p)) \\ &= \{ \sigma \in D_\P \mid \forall x \in B : \sigma(x) \equiv x \mod \P \}\end{align*}$${{< /raw >}}
 
 {{< raw >}}
 <div class="floatright">

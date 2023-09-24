@@ -44,4 +44,4 @@ If time allows (not right now, of course!), I would also be interested in an eng
 
 If you are at ETH, please have a look at the [undergraduate colloquium](https://zucmap.ethz.ch/), which I have (re)initiated together with Sidd!
 
-Feel free to contact me via firstname.lastname@hotmail.de ([PGP Public Key](pgp-public-key.asc)), I'm always happy to speak about math, computer science, engineering, life, and everything else.
+Feel free to contact me via \[firstname\].\[lastname\]@hotmail.de ([PGP Public Key](pgp-public-key.asc)), I'm always happy to speak about math, computer science, engineering, life, and everything else.

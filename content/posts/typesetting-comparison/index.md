@@ -251,7 +251,7 @@ If you don't know how you can achieve a particular result, just ask on their mai
 
 For **Typst**, the syntax *is* different, so switching takes a bit longer.
 But, usually, the syntax is *better*, so you will be happy to have made the switch.
-For graphics, however, it will be a hard switch, as you don't have e.g. TikZ .
+For graphics, however, it will be a hard switch, as you don't have e.g. TikZ.
 There are also no real alternatives available yet, though users are already starting to build some amazing-looking libraries -- just have a look [here](https://github.com/qjcg/awesome-typst) and at the Typst Discord.
 
 Lastly, researchers often ask if it's still possible to upload the result to [**arXiv**](https://arxiv.org/).
@@ -265,7 +265,7 @@ Some other journals, however, only require you to submit a PDF following a certa
 ConTeXt does a couple of things better than LaTeX, but it is still based on TeX, and the codebase is ... probably horrible?
 So while it serves as a great LaTeX replacement for the time being, and you should try it if you liked the teaser above, it won't be the ultimate new typesetting system.
 
-I think, in the end, we should all switch to Typst and make it the new typesetting system for the scientific community (at least the mathematical one).
+I think, in the end, most of us should switch to Typst and make it the new typesetting system for the scientific community (at least the mathematical one).
 
 The question is just *when* to switch to Typst.
 
