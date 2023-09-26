@@ -16,7 +16,7 @@ lastmod = ['lastmod']
 linkify = false
 
 [markup.highlight]
-noClasses = "false"
+style = 'gruvbox'
 
 [outputs]
   page = ['HTML']
