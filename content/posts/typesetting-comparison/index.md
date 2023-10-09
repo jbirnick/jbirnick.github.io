@@ -240,6 +240,8 @@ Pros:
 Cons:
 - some in the TeX world rather basic features are not yet implemented
 
+Oh and did I already mention the coolest fact about Typst? "$\varepsilon$" is the default version of epsilon and "$\varphi$" is the default version of phi. ;)
+
 ## Isn't it hard to switch?
 
 For **ConTeXt**, it's not hard at all.
