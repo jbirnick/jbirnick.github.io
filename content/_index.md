@@ -12,12 +12,13 @@ lastmod = 2023-07-19
 Hi, I'm Johann. I'm interested in mathematics and computer science.
 More concretely, here is a list with some of my interests, roughly ordered by their usefulness in the real world / industry (which is also roughly the order in which I became interested in them):
 
-- applications of arithmetic geometry in cryptography and coding theory
+- applications of arithmetic geometry in cryptography
   * algebraic and elliptic curves
   * $p$-adics, and analogs for analytic notions over them
   * some algebraic geometry, like Galois Theory of schemes yielding a relation between Galois groups and fundamental groups
   * (automorphic forms, Galois representations, their relation to algebraic / geometric objects, noncommutative geometry, quaternion algebras)
   * computational aspects of all the previous and computer algebra
+  * cryptography
 - (the language(s) of logic and computation)
   * (interactive proof assistants and automatic theorem proving, as well as formal verification of software, and combining computer algebra with formal verification of proofs)
   * (applying category theory to computing, data science, engineering, logic, AI, and other sciences)
