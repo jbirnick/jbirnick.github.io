@@ -254,6 +254,8 @@ If you don't know how you can achieve a particular result, just ask on their mai
 For **Typst**, the syntax *is* different, so switching takes a bit longer.
 But, usually, the syntax is *better*, so you will be happy to have made the switch.
 For example, you can type `<=` to get "$\leq$", `RR` to get "$\mathbb{R}$", `->` to get "$\to$", `|->` to get "$\mapsto$", and, well, I guess I don't need to explain how to get a longer arrow.
+Expressions like `1/x` will automatically become fractions, and so on.
+You can type formulas in Typst much faster than you can type them in LaTeX.
 For graphics, however, it will be a hard switch, as you don't have e.g. TikZ.
 There are also no real alternatives available yet, though users are already starting to build some amazing-looking libraries -- just have a look [here](https://github.com/qjcg/awesome-typst) and at the Typst Discord.
 
