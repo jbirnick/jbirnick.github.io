@@ -39,7 +39,7 @@ Now, I look more into applied math and computer science.
 
 **I like to combine elegant theory with useful practice.**
 
-If time allows (not right now, of course!), I would also be interested in an engineering project outside of my "comfort zone", for example involving biotech, chemisty, or mechanical engineering.
+If time allows (not right now, of course!), I would also be interested in an engineering project outside of my "comfort zone", for example involving biotech, chemistry, or mechanical engineering.
 I would also like to learn more about biology and neuroscience at some point.
 
 Feel free to contact me via \[firstname\].\[lastname\]@hotmail.de ([PGP Public Key](pgp-public-key.asc)), I'm always happy to speak about math, computer science, engineering, life, and everything else.
