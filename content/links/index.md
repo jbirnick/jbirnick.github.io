@@ -1,7 +1,7 @@
 +++
 title = 'Links | Johann Birnick'
 description = ''
-keywords = []
+keywords = ['programming','typesetting','conferences','applied mathematics']
 menu.main.name = 'Links'
 weight = 40
 +++
@@ -18,10 +18,9 @@ On this page I collect links to useful webpages, nice people, and other things.
 
 ## Conferences / Programs / Meetings
 
-Below are all [MathMeetings.net](https://mathmeetings.net/) entries which have the number theory tag.
-Additions and modifications from ≤ 30 days ago are marked.
+I now maintain a list of events in my rough area(s) of interest, which is found [here](/conferences/).
 
-{{< conferencelist >}}
+If you are looking for the old arithmetic geometry conference list, this is now [here](/conferences/numbertheory/).
 
 ## People
 

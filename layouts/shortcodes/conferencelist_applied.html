@@ -1,0 +1,27 @@
+{{ $list := getJSON "https://conferencelist.jbirnick.net/api/?from=today" }}
+<ul class=conference>
+{{ $currentYear := "" }}
+{{ $currentMonth := "" }}
+
+{{ range sort $list.conferences "startdate" }}
+
+{{ $year := dateFormat "2006" .startdate }}
+{{ $month := dateFormat "January" .startdate }}
+
+{{ if ne $year $currentYear }}
+{{ $currentYear = $year }}
+<h3>{{ $currentYear }}</h3>
+{{ $currentMonth = "" }}
+{{ end }}
+
+{{ if ne $month $currentMonth }}
+{{ $currentMonth = $month }}
+<p>{{ $currentMonth }}</p>
+{{ end }}
+
+<li class="conference"><a href="{{ .link }}">{{ .title }}</a><br><small>
+
+{{ $dateAdded := time .added }}{{ $secondsSinceAdded := sub now.Unix $dateAdded.Unix }}{{ $daysSinceAdded := div (add $secondsSinceAdded 86400) 86400 }}{{ $wordDays := "days" }}{{ if eq $daysSinceAdded 1 }}{{ $wordDays = "day" }}{{ end }}{{ if le $daysSinceAdded 30 }}<span style="color: green; font-weight: bold;">[▶ added {{ $daysSinceAdded }} {{ $wordDays }} ago]</span> {{ end }}{{ dateFormat "January 2" .startdate }}{{ if ne .startdate .enddate }} – {{ if ne (dateFormat "2006" .enddate) $currentYear }}{{ dateFormat "January 2 (2006)" .enddate}}{{ else }}{{ if ne (dateFormat "1" .startdate) (dateFormat "1" .enddate) }}{{ dateFormat "January 2" .enddate}}{{ else }}{{ dateFormat "2" .enddate}}{{ end }}{{ end }}{{ end }}, {{ .location }}{{ if not (strings.Contains .location .city) }}, {{ .city }}{{ end }}, {{ .country }}<br><small>{{ delimit .keywords ", " }}</small></small></li>
+
+{{ end }}
+</ul>
