@@ -28,8 +28,8 @@ More concretely, here is a list with some of my interests, roughly ordered by th
 - optimization and its relation to data science
   * all sorts of (mostly continuous) optimization, also in combination with probability/statistics
   * computational optimal transport
-- (computational) statistics / data science
-  * modern probability and statistics (high-dimensional, computational, robust) 
+- modern probability / statistics / data science
+  * modern statistics (high-dimensional, computational, robust) 
   * information theory/geometry
   * causality, graphical models, and its interplay with the next two bulletpoints
   * machine learning
