@@ -11,6 +11,8 @@ weight = 39
 This list contains events in my rough interest area(s) in applied math.
 If there is an event missing, please drop me an email at \[firstname\].\[lastname\]@hotmail.de .
 
+The arithmetic geometry conference list can be found [here](/conferences/numbertheory/).
+
 WARNING: The list is automatically generated utilizing web scraping and language models. If you find a mistake, please contact \[firstname\].\[lastname\]@hotmail.de .
 
 {{< conferencelist_applied >}}
