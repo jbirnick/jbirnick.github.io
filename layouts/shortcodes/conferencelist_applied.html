@@ -1,3 +1,20 @@
+<fieldset>
+
+<legend>Visibility</legend>
+
+<div>
+<input type="checkbox" id="check-basicinfo" onclick="changeVisibility(this, 'conf-basicinfo')" checked />
+<label for="check-basicinfo">show date+location</label>
+</div>
+
+<div>
+<input type="checkbox" id="check-keywords" onclick="changeVisibility(this, 'conf-keywords')" checked />
+<label for="check-keywords">show keywords</label>
+</div>
+
+</fieldset>
+
+
 {{ $list := getJSON "https://conferencelist.jbirnick.net/api/?from=today" }}
 <ul class=conference>
 {{ $currentYear := "" }}
@@ -19,9 +36,30 @@
 <p>{{ $currentMonth }}</p>
 {{ end }}
 
-<li class="conference"><a href="{{ .link }}">{{ .title }}</a><br><small>
-
-{{ $dateAdded := time .added }}{{ $secondsSinceAdded := sub now.Unix $dateAdded.Unix }}{{ $daysSinceAdded := div (add $secondsSinceAdded 86400) 86400 }}{{ $wordDays := "days" }}{{ if eq $daysSinceAdded 1 }}{{ $wordDays = "day" }}{{ end }}{{ if le $daysSinceAdded 30 }}<span style="color: green; font-weight: bold;">[▶ added {{ $daysSinceAdded }} {{ $wordDays }} ago]</span> {{ end }}{{ dateFormat "January 2" .startdate }}{{ if ne .startdate .enddate }} – {{ if ne (dateFormat "2006" .enddate) $currentYear }}{{ dateFormat "January 2 (2006)" .enddate}}{{ else }}{{ if ne (dateFormat "1" .startdate) (dateFormat "1" .enddate) }}{{ dateFormat "January 2" .enddate}}{{ else }}{{ dateFormat "2" .enddate}}{{ end }}{{ end }}{{ end }}, {{ .location }}{{ if not (strings.Contains .location .city) }}, {{ .city }}{{ end }}, {{ .country }}<br><small>{{ delimit .keywords ", " }}</small></small></li>
+<li class="conference">
+<a style="display: block;" href="{{ .link }}">{{ .title }}</a>
+<small>
+<span class="conf-basicinfo" style="display: block;">{{ $dateAdded := time .added }}{{ $secondsSinceAdded := sub now.Unix $dateAdded.Unix }}{{ $daysSinceAdded := div (add $secondsSinceAdded 86400) 86400 }}{{ $wordDays := "days" }}{{ if eq $daysSinceAdded 1 }}{{ $wordDays = "day" }}{{ end }}{{ if le $daysSinceAdded 30 }}<span style="color: green; font-weight: bold;">[▶ added {{ $daysSinceAdded }} {{ $wordDays }} ago]</span> {{ end }}{{ dateFormat "January 2" .startdate }}{{ if ne .startdate .enddate }} – {{ if ne (dateFormat "2006" .enddate) $currentYear }}{{ dateFormat "January 2 (2006)" .enddate}}{{ else }}{{ if ne (dateFormat "1" .startdate) (dateFormat "1" .enddate) }}{{ dateFormat "January 2" .enddate}}{{ else }}{{ dateFormat "2" .enddate}}{{ end }}{{ end }}{{ end }}, {{ .location }}{{ if not (strings.Contains .location .city) }}, {{ .city }}{{ end }}, {{ .country }}</span>
+<span class="conf-keywords" style="display: block;"><small>{{ delimit .keywords ", " }}</small></span>
+</small>
+</li>
 
 {{ end }}
 </ul>
+
+
+<script>
+function changeVisibility(cb, classname) {
+  if (cb.checked) {
+    const elements = document.querySelectorAll('.' + classname);
+    elements.forEach(element => {
+      element.style.display = 'block';
+    });
+  } else {
+    const elements = document.querySelectorAll('.' + classname);
+    elements.forEach(element => {
+      element.style.display = 'none';
+    });
+  }
+}
+</script>
