@@ -38,10 +38,8 @@
 
 <li class="conference">
 <a style="display: block;" href="{{ .link }}">{{ .title }}</a>
-<small>
-<span class="conf-basicinfo" style="display: block;">{{ $dateAdded := time .added }}{{ $secondsSinceAdded := sub now.Unix $dateAdded.Unix }}{{ $daysSinceAdded := div (add $secondsSinceAdded 86400) 86400 }}{{ $wordDays := "days" }}{{ if eq $daysSinceAdded 1 }}{{ $wordDays = "day" }}{{ end }}{{ if le $daysSinceAdded 30 }}<span style="color: green; font-weight: bold;">[▶ added {{ $daysSinceAdded }} {{ $wordDays }} ago]</span> {{ end }}{{ dateFormat "January 2" .startdate }}{{ if ne .startdate .enddate }} – {{ if ne (dateFormat "2006" .enddate) $currentYear }}{{ dateFormat "January 2 (2006)" .enddate}}{{ else }}{{ if ne (dateFormat "1" .startdate) (dateFormat "1" .enddate) }}{{ dateFormat "January 2" .enddate}}{{ else }}{{ dateFormat "2" .enddate}}{{ end }}{{ end }}{{ end }}, {{ .location }}{{ if not (strings.Contains .location .city) }}, {{ .city }}{{ end }}, {{ .country }}</span>
-<span class="conf-keywords" style="display: block;"><small>{{ delimit .keywords ", " }}</small></span>
-</small>
+<span class="conf-basicinfo" style="display: block;"><small>{{ $dateAdded := time .added }}{{ $secondsSinceAdded := sub now.Unix $dateAdded.Unix }}{{ $daysSinceAdded := div (add $secondsSinceAdded 86400) 86400 }}{{ $wordDays := "days" }}{{ if eq $daysSinceAdded 1 }}{{ $wordDays = "day" }}{{ end }}{{ if le $daysSinceAdded 30 }}<span style="color: green; font-weight: bold;">[▶ added {{ $daysSinceAdded }} {{ $wordDays }} ago]</span> {{ end }}{{ dateFormat "January 2" .startdate }}{{ if ne .startdate .enddate }} – {{ if ne (dateFormat "2006" .enddate) $currentYear }}{{ dateFormat "January 2 (2006)" .enddate}}{{ else }}{{ if ne (dateFormat "1" .startdate) (dateFormat "1" .enddate) }}{{ dateFormat "January 2" .enddate}}{{ else }}{{ dateFormat "2" .enddate}}{{ end }}{{ end }}{{ end }}, {{ .location }}{{ if not (strings.Contains .location .city) }}, {{ .city }}{{ end }}, {{ .country }}</small></span>
+<span class="conf-keywords" style="display: block;"><small><small>{{ delimit .keywords ", " }}</small></small></span>
 </li>
 
 {{ end }}
