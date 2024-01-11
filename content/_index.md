@@ -35,7 +35,7 @@ More concretely, here is a list with some of my interests, roughly ordered by th
   * machine learning
 - artificial intelligence
 
-Over the last three years, breaking elliptic curve based cryptography has been a great motivation for me to learn about arithmetic geometry, and that's where I learned about the first block above.
+Over the last three years, attacking elliptic curve based cryptography has been a great motivation for me to learn about arithmetic geometry, and that's where I learned about the first block above.
 Now, I look more into applied math and computer science.
 
 **I like to combine elegant theory with useful practice.**
