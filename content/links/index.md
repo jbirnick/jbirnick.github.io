@@ -15,7 +15,7 @@ On this page I collect links to useful webpages, nice people, and other things.
 - For writing digitally (online lectures, slides, ...), I use [Xournal++](https://xournalpp.github.io/) with my Wacom tablet.
 - Recently, I became a [SageMath](https://www.sagemath.org/) contributor.
 - For reading PDFs, [Sioyek](https://sioyek.info/) can be helpful (though it has minor bugs).
-- If you organize something where you need people to sign contracts/waivers, consider [DocuSeal](https://docuseal.co/).
+- If you organize something where you need people to sign contracts/waivers, consider [DocuSeal](https://www.docuseal.co/).
 
 ## Conferences / Programs / Meetings
 
