@@ -7,7 +7,7 @@ weight = 10
 layout = 'single'
 lastmod = 2023-07-19
 +++
-{{< figure src="photo.webp" class="floatright maxgolden" alt="A photo of me on a hike trip." >}}
+{{< figure src="photo.webp" class="floatright maxgolden" alt="A photo of me on a hiking trip." >}}
 
 Hi, I'm Johann. I'm interested in mathematics and computer science.
 More concretely, here is a list with some of my interests, roughly ordered by their usefulness in the real world / industry (which is also roughly the order in which I became interested in them):
