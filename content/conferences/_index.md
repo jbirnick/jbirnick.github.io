@@ -17,6 +17,5 @@ WARNING: The list is automatically generated utilizing web scraping and language
 
 {{< conferencelist_applied >}}
 
-You can also access the list in JSON format from `https://conferencelist.jbirnick.net/api/?from=YYYY-MM-DD`, where you have to insert an actual date.
-It will list all conferences with end date ≤ YYYY-MM-DD.
-You can also use [`.../?from=today`](https://conferencelist.jbirnick.net/api/?from=today) to use the current date (UTC).
+The list is also available in JSON format from [`https://conferencelist.jbirnick.net/api/?from=today`](https://conferencelist.jbirnick.net/api/?from=today). 
+You can also use `.../?from=YYYY-MM-DD` to get all conferences with end date ≥ YYYY-MM-DD.
