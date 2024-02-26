@@ -52,16 +52,14 @@ It is the underlying set of the scheme associated to $R$ (which is also called $
 This is motivated by the theory of varieties:
 For any algebraically closed field $k$ and polynomials $f_1, \dots, f_r \subseteq k[X_1,\dots,X_n]$, the maximal ideals of $k[X_1,\dots,X_n]/(f_1,\dots,f_r)$ correspond exactly to the solution points {{< raw >}}$\{p \in k^n \mid \forall i : f_i(p) = 0 \}${{< /raw >}}.
 So we might just *define* the variety as the maximal ideals of $k[X_1,\dots,X_n]/(f_1,\dots,f_r)$.
-In scheme theory we more generally take all *prime* ideals instead of just the maximal ones.[^5]
-
-[^5]: This has several reasons.
+In scheme theory we more generally take all *prime* ideals instead of just the maximal ones. (For sevaral reasons.)
 
 To state what a curve in the scheme-theoretic sense is, you need quite some scheme theory.
 But we will only work with *plane affine* curves:
 Take any field $k$, not necessarily algebraically closed, and an irreducible polynomial $f \in k[X,Y]$.
 Then $\Spec k[X,Y]/(f)$ is a (plane affine algebraic) curve.
 A note on the irreduciblity of $f$: This is just to ensure that the scheme has only one irreducible component;
-if $f = gh$ then $k[X,Y]/(f) \cong k[X,Y]/(g) \times k[X,Y]/(h)$ and hence by functoriality (see later) $\Spec k[X,Y]/(f) \cong k[X,Y]/(g) \sqcup k[X,Y]/(h)$ so that we could reduce our analysis to the analysis of two subcurves.
+if $f = gh$ then $k[X,Y]/(f) \cong k[X,Y]/(g) \times k[X,Y]/(h)$ and this implies $\Spec k[X,Y]/(f) \cong \Spec k[X,Y]/(g) \sqcup \Spec k[X,Y]/(h)$, so that we could reduce our analysis of the curve to the analysis of two subcurves.
 We will only look at *smooth* curves, where we won't give the definition of smooth, but in our case of plane affine curves it's similar to the definition of smooth varieties.
 
 Ok, but what does this have to do with Dedekind domains?
@@ -78,9 +76,9 @@ That it's an integral domain follows from the scheme being irreducible.
 (For example, remember that in our case we required $f$ to be irreducible, which makes $k[X,Y]/(f)$ an integral domain.)
 It's integrally closed precisely because it's smooth, though the proof is highly nontrivial.[^1]
 Dimension 1 is part of the definition of curve.
-Noetherian is also part of the abstract definition of curve, but note that in our case it also a consequence of the Hilbert basis theorem.
+Noetherian is also part of the abstract definition of curve, but note that in our case it's also a consequence of the Hilbert basis theorem.
 
-As the coordinate ring is (always) an integral domain, we can take its field of fractions.
+As the coordinate ring is an integral domain, we can take its field of fractions.
 It is called the *function field* of the curve.
 We have an analogy:
 
@@ -157,7 +155,7 @@ They can be also seen as unions (Galois orbits) of complex points with ...
 - ... $x$-coordinate in $\R$ and $y$-coordinate *not* in $\R$.
 - ... $x$-coordinate not in $\R$ (and hence also $y$-coordinate not in $\R$, since $y^2 = x$).
 
-What exactly are the complex points of which they are a union?
+What exactly are the complex points of which the "real points" are a union?
 For points $(\overline{X}-x,\overline{Y}^2 + y^2)$ in the second class, they are $(\overline{X}-x,\overline{Y}-iy)$ and $(\overline{X}-x,\overline{Y}+iy)$.
 In the picture, I drew a dotted line for these complex points and connected them (in one case) using blue ink, which stands for our point of the second class. (Compare with my picture of the real affine line: There I only drew the upper half plane, which was representing one of the two complex points of interest. If I was consistent, I should have drawn the whole complex plane and connected a point to its complex conjugate with blue ink.)
 For the third class it might be confusing at first sight:
@@ -183,17 +181,27 @@ And for $x$ that are already a pair of complex conjugates on the real affine lin
 You get four complex points that glue to two real points (class 3).
 
 Very important to notice here is that I *made a choice*:
-I started with the $x$-coordinate (and then solved for $y$).
+I started with the $x$-coordinate, and then solved for $y$.
 Why not start with the $y$-coordinate? Then we don't need to find square roots, but just square the value!
 Indeed, that would be another approach.
 
 In mathematical terms, I never just looked at my parabola on its own, I was actually looking at the morphism of algebraic curves which is the projection to the $x$-axis!
 To be precise, I started with a point on the $x$-axis and then was finding preimages under this morphism.
-An alternative approach would be to look at the projection to the $y$-axis, or to any other line.
+An alternative approach would be to look at the projection to the $y$-axis.
+Or to any other line!
 It will yield different partitions into classes of the points on the parabola.
 This illustrates how important morphisms are - I used them even when I was trying to just analyze an object on its own.
 
-**Exercise.** Note that the last example is an algebraic curve analog of a quadratic number field, so let's draw $\Z[i]$.
+Back to the connection with number fields.
+The important thing to note is that the parabola is an algebraic curve analog of a quadratic number field like $\Z[i]$!
+Indeed, in both cases, $k[X,Y]/(Y^2 - X)$ respectively $\Z[i]$, we are
+
+- starting with the base object, which is $k[X]$ respectively $\Z$,
+- find a non-square, which is $X$ respectively $-1$,
+- and artificially adjoin a square root of that non-square, obtaining $k[X,Y]/(Y^2 - X)$ respectively $\Z[Y]/(Y^2 + 1) \cong \Z[i]$.
+
+**Exercise.** 
+So let's draw $\Z[i]$.
 Remind yourself of the characterization of prime ideals of $\Z[i]$.
 Then draw a picture of $\Spec \Z[i]$.
 Use smaller and bigger dots appropriately.
@@ -236,7 +244,7 @@ This yields the commutative diagram on the right, where:
 Any extension of number fields satisfies this setup (where $A,B$ are the integer rings).
 Also every morphism of algebraic curves satisfies this setup ($K,L$ are the function fields, $A,B$ are the coordinate rings).
 
-**Exercise.** Find a category-theoric formulation of what I just said.
+**Exercise.** Find a category-theoric formulation of the last paragraph.
 
 Most of the results which are proved in an algebraic number theory course for extensions of number fields, actually hold in the generality of this setup.
 Sometimes you also need that the extension $L/K$ is separable, and a large part of the theory only begins when you assume $L/K$ to be Galois, so that you can use Galois theory.
@@ -281,8 +289,8 @@ And here is the picture:
   * $\P_c$ to $\p_c$
   * $\P_{d,1}$ and $\P_{d,2}$ to $\p_d$
 
-Please make all of those points very clear to yourself. Why are they true?
-This is the heart of the post.
+Please make all of those statements very clear to yourself.
+Understanding why they are true means understanding the whole intuition about points of curves.
 
 The rest of the post is devoted to study different notions of decomposition at the example of this morphism and the points $\p_a, \p_b, \p_c$.
 We leave out all the green stuff, and therefore $\p_d$, because it makes the pictures smaller:
