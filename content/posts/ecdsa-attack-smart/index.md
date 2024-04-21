@@ -11,6 +11,7 @@ draft = true
 +++
 $\gdef\Z{\mathbb{Z}}\gdef\Q{\mathbb{Q}}\gdef\F{\mathbb{F}}\gdef\Pr{\mathbb{Pr}}\gdef\Af{\mathbb{Af}}$
 
+
 These days, elliptic curves over finite fields are widely used in public-key cryptography since about 20 years.
 This is due to the fact that the *discrete logarithm problem* DLOG on such a curve is generally hard to solve; meaning, so far nobody has found an algorithm that computes solutions in a reasonable time.
 However, in special cases one can solve DLOG efficiently.
