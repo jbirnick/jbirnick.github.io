@@ -10,10 +10,10 @@ On this page I collect links to useful webpages, nice people, and other things.
 ## Software
 
 - See [my GitHub](https://github.com/jbirnick) for a few programming projects I've made publicly available.
-- For typesetting, ~~I currently use and recommend [ConTeXt](https://wiki.contextgarden.net/) (over LaTeX), but I very much look forward to start using [Typst](https://typst.app/)~~. I have switched to Typst. See [my former blog post on this](/posts/typesetting-comparison/).
+- For typesetting, I can very much recommend [Typst](https://typst.app/) (over LaTeX). See [my former blog post on this](/posts/typesetting-comparison/).
 - For making the pictures in my posts, I use the amazing software [Inkscape](https://inkscape.org/), together with my Wacom Pen Tablet (Intuos M).
 - For writing digitally (online lectures, slides, ...), I use [Xournal++](https://xournalpp.github.io/) with my Wacom tablet.
-- Recently, I became a [SageMath](https://www.sagemath.org/) contributor.
+- As a Computer Algebra System, I recommend [SageMath](https://www.sagemath.org/).
 - For reading PDFs, [Sioyek](https://sioyek.info/) can be helpful (though it has minor bugs).
 - When you ask people to sign contracts/waivers, consider [DocuSeal](https://www.docuseal.co/).
 
