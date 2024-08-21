@@ -11,7 +11,7 @@ lastmod = 2024-08-19
 
 Hi, I'm Johann.
 I'm interested in mathematics and computer science.
-More concretely, here is a list with some of my interests, roughly ordered by their usefulness in the real world / industry (which is also roughly the order in which I became interested in them):
+More concretely, here is a list with some of my interests, roughly ordered by their usefulness in the real world / industry:
 
 - (some aspects of arithmetic geometry and computer algebra)
 - real algebraic geometry and toposes (and relation to optimization)
