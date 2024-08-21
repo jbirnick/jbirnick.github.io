@@ -1,10 +1,10 @@
 +++
 title = 'Personal Website of Johann Birnick'
 description = 'The personal website of Johann Birnick, a mathematician and technologist.'
-#template = "page.html"
-
-[extra]
 keywords = ['Birnick', 'Johann', 'math', 'mathematics', 'research', 'number theory', 'arithmetic geometry', 'algebraic geometry', 'cryptography', 'computation', 'algorithms', 'technology', 'application', 'applied math', 'industry', 'engineering', 'machine learning', 'artificial intelligence']
+menu.main.name = 'About'
+weight = 10
+layout = 'single'
 lastmod = 2024-08-19
 +++
 {{< figure src="photo.webp" class="floatright maxgolden" alt="A photo of me on a hiking trip." >}}
