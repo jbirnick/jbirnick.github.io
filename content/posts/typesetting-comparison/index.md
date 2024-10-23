@@ -143,7 +143,7 @@ You can easily use any font you would like, and also different math fonts.
 
 Here is an example of basic Typst code, not really using any "programming":
 
-```typst
+```typ
 = Introduction
 
 This is a little paragraph, and it contains

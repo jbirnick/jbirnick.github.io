@@ -1,4 +1,6 @@
-{{ $list := getJSON "https://mathmeetings.net/nt.json" }}
+{{ $listraw := resources.GetRemote "https://mathmeetings.net/nt.json" }}
+{{ $list := $listraw | transform.Unmarshal }}
+
 <ul class=conference>
 {{ $currentYear := "" }}
 {{ $currentMonth := "" }}

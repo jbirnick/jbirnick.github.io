@@ -15,7 +15,9 @@
 </fieldset>
 
 
-{{ $list := getJSON "https://conferencelist.jbirnick.net/api/?from=today" }}
+{{ $listraw := resources.GetRemote "https://conferencelist.jbirnick.net/api/?from=today" }}
+{{ $list := $listraw | transform.Unmarshal }}
+
 <ul class=conference>
 {{ $currentYear := "" }}
 {{ $currentMonth := "" }}
