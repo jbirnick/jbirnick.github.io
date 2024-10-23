@@ -5,7 +5,7 @@
 {{ $currentYear := "" }}
 {{ $currentMonth := "" }}
 
-{{ range sort $list.conferences "date" }}
+{{ range $list.conferences }}
 
 {{ $year := dateFormat "2006" .start_date }}
 {{ $month := dateFormat "January" .start_date }}

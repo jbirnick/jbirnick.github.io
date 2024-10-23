@@ -22,7 +22,7 @@
 {{ $currentYear := "" }}
 {{ $currentMonth := "" }}
 
-{{ range sort $list.conferences "startdate" }}
+{{ range $list.conferences }}
 
 {{ $year := dateFormat "2006" .startdate }}
 {{ $month := dateFormat "January" .startdate }}
