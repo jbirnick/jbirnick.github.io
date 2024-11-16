@@ -10,7 +10,7 @@ pdf = false
 comments = true
 +++
 
-Let's be honest: Nobody really loves LaTeX.
+Let's be honest: Nobody really _loves_ LaTeX.
 
 This post shows you some great alternatives and explains how to switch.
 
