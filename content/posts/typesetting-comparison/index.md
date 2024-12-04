@@ -1,6 +1,6 @@
 +++
 title = 'LaTeX vs. ConTeXt vs. Typst'
-description = "I compare three typesetting systems, and I give you advice on which one you should use. (Spoiler: Not LaTeX.)"
+description = "I compare three typesetting systems, so you can better choose which one you want to use."
 keywords = ['typesetting', 'LaTeX', 'ConTeXt', 'Typst', 'LaTeX alternative', 'TeX', 'math', 'mathematics', 'equation']
 author = 'Johann Birnick'
 categories = ['software']
@@ -10,7 +10,7 @@ pdf = false
 comments = true
 +++
 
-Let's be honest: Nobody really _loves_ LaTeX.
+Let's be honest: Nobody really _loves_ LaTeX. It works and produces beautiful output, but it has its flaws.
 
 This post shows you some great alternatives and explains how to switch.
 
@@ -270,7 +270,7 @@ Some other journals, however, only require you to submit a PDF following a certa
 ConTeXt does a couple of things better than LaTeX, but it is still based on TeX, and the codebase is ... probably horrible?
 So while it serves as a great LaTeX replacement for the time being, and you should try it if you liked the teaser above, it won't be the ultimate new typesetting system.
 
-I think, in the end, most of us should switch to Typst and make it the new typesetting system for the scientific community (at least the mathematical one).
+I think, in the end, hopefully most of us will switch to Typst and make it the new typesetting system for the scientific community eventually.
 
 The question is just *when* to switch to Typst.
 
@@ -284,3 +284,6 @@ For example, I already use it for my CV and for writing letters.
 One feature I am still missing for writing e.g. a thesis in Typst, is the ability to wrap text around a floating image.
 
 I will update you when there are big steps forward in Typst.
+
+UPDATE: Typst now supports [packages](https://typst.app/universe/), which allow you to make beautiful [graphics](https://typst.app/universe/package/cetz), [diagrams](https://typst.app/universe/package/fletcher), [theorems](https://typst.app/universe/package/great-theorems), and [presentations](https://typst.app/universe/package/touying/).
+I have fully switched and look forward to the exciting journey Typst has ahead of it.
