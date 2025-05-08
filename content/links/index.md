@@ -17,6 +17,8 @@ On this page I collect links to useful webpages, nice people, and other things.
 - As a Computer Algebra System, I recommend [SageMath](https://www.sagemath.org/).
 - For reading PDFs, [Sioyek](https://sioyek.info/) can be helpful (though it has minor bugs).
 - When you ask people to sign contracts/waivers, consider [DocuSeal](https://www.docuseal.co/).
+- If you are looking for a place to backup your files, check out [rsync.net](https://www.rsync.net/cloudstorage.html).
+  If you are looking for a tool to create the backups, including encryption, check out [Borg](https://www.borgbackup.org/).
 
 ## Conferences / Programs / Meetings
 
