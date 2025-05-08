@@ -19,6 +19,7 @@ On this page I collect links to useful webpages, nice people, and other things.
 - When you ask people to sign contracts/waivers, consider [DocuSeal](https://www.docuseal.co/).
 - If you are looking for a place to backup your files, check out [rsync.net](https://www.rsync.net/cloudstorage.html).
   If you are looking for a tool to create the backups, including encryption, check out [Borg](https://www.borgbackup.org/).
+  Also rsync.net has a [very good offer](https://www.rsync.net/products/borg.html) for borg users.
 
 ## Conferences / Programs / Meetings
 
