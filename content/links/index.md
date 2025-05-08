@@ -17,7 +17,7 @@ On this page I collect links to useful webpages, nice people, and other things.
 - As a Computer Algebra System, I recommend [SageMath](https://www.sagemath.org/).
 - For reading PDFs, [Sioyek](https://sioyek.info/) can be helpful (though it has minor bugs).
 - When you ask people to sign contracts/waivers, consider [DocuSeal](https://www.docuseal.co/).
-- If you are looking for file backup tool, have a look at [Restic](https://restic.net/) and [Borg](https://www.borgbackup.org/) and [Kopia](https://kopia.io/).
+- If you want to create encrypted file backups, have a look at [Restic](https://restic.net/) and [Borg](https://www.borgbackup.org/) and [Kopia](https://kopia.io/).
 - If you are then looking for place for the backups, check out [rsync.net](https://www.rsync.net/cloudstorage.html), they have special offers for Restic and Borg users, see [here](https://www.rsync.net/products/restic.html) and [here](https://www.rsync.net/products/borg.html).
 
 ## Conferences / Programs / Meetings
