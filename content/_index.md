@@ -5,27 +5,20 @@ keywords = ['Birnick', 'Johann', 'math', 'mathematics', 'research', 'number theo
 menu.main.name = 'About'
 weight = 10
 layout = 'single'
-lastmod = 2024-11-04
+lastmod = 2025-09-29
 +++
 {{< figure src="photo.webp" class="floatright maxgolden" alt="A photo of me on a hiking trip." >}}
 
 Hi, I'm Johann.
 I'm interested in mathematics and computer science.
-More concretely, here is a list with some of my interests, roughly ordered by their usefulness in the real world / industry:
 
-- real algebraic geometry, toposes, and their relation to optimization (sums of squares etc.)
-- high-dimensional/computational/robust aspects of statistics/learning/information theory/geometry
-- cryptanalysis, especially related to lattices
-- optimization, in particular in the context of data science / machine learning
-- optimal transport and applications
-- machine learning and the algorithms behind it (theoretical limits, guarantees, and practical applications)
-- artificial intelligence
+Currently I work on quantization and compression of deep neural networks.
+I'm also interested in cryptography, in particular in lattice cryptography, zero-knowledge proofs, and SNARKs.
+During my Bachelor and Master studies I was focusing on pure algebraic topics (and logic), and I still enjoy reading about related thing from time to time.
 
-A big part of my mathematics education was motivated by logic and cryptanalysis.
-I enjoy to look at applicable things, such as algorithms.
-
+I enjoy to look at applicable things, such as (practical) algorithms.
 **I like to combine elegant theory with useful practice.**
 
-If time allows, one day I would like to learn more about biology, chemistry, and neuroscience.
+If time allows, one day I would like to learn more about hardware, chemistry, biology, and neuroscience.
 
 Feel free to contact me via \[firstname\].\[lastname\]@hotmail.de ([PGP Public Key](pgp-public-key.asc)), I'm always happy to speak about math, computer science, engineering, life, and everything else.
