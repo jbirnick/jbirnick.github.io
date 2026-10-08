@@ -21,4 +21,4 @@ I enjoy to look at applicable things, such as (practical) algorithms.
 
 If time allows, one day I would like to learn more about hardware, chemistry, biology, and neuroscience.
 
-Feel free to contact me via \[firstname\].\[lastname\]@hotmail.de ([PGP Public Key](pgp-public-key.asc)), I'm always happy to speak about math, computer science, engineering, life, and everything else.
+Feel free to contact me via \[firstname\].\[lastname\]@hotmail.de, I'm always happy to speak about math, computer science, engineering, life, and everything else.
