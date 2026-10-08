@@ -5,20 +5,18 @@ keywords = ['Birnick', 'Johann', 'math', 'mathematics', 'research', 'number theo
 menu.main.name = 'About'
 weight = 10
 layout = 'single'
-lastmod = 2025-09-29
+lastmod = 2026-10-08
 +++
 {{< figure src="photo.webp" class="floatright maxgolden" alt="A photo of me on a hiking trip." >}}
 
 Hi, I'm Johann.
-I'm interested in mathematics and computer science.
+I'm currently a PhD student in the math department at UC San Diego.
+Some true statements about my interests/research:
 
-Currently I work on quantization and compression of deep neural networks.
-I'm also interested in cryptography, in particular in lattice cryptography, zero-knowledge proofs, and SNARKs.
-During my Bachelor and Master studies I was focusing on pure algebraic topics (and logic), and I still enjoy reading about related thing from time to time.
+- I like to combine elegant theory with useful practice.
+- I want to find and understand the _natural_ (``right'') way to do things in deep learning.
+- In particular I like to understand the geometry and dynamics of (deep) learning related things.
+- For example: How should the optimizer look like, or generally how should the network be trained? How should hyperparameters of network architecture and optimizer be chosen? I think, to some degree, there is natural/canonical answer to these questions.
+- My recent work has been in quantization/compression of neural networks.
 
-I enjoy to look at applicable things, such as (practical) algorithms.
-**I like to combine elegant theory with useful practice.**
-
-If time allows, one day I would like to learn more about hardware, chemistry, biology, and neuroscience.
-
-Feel free to contact me via \[firstname\].\[lastname\]@hotmail.de, I'm always happy to speak about math, computer science, engineering, life, and everything else.
+Feel free to contact me via \[firstname\].\[lastname\]@hotmail.de, I'm always happy to speak about math, cs, physics, engineering, sports, entrepreneurship, life, and everything else.
