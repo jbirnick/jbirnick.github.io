@@ -4,7 +4,7 @@
     <title>{{ .Title }}</title>
     <link>{{ .Permalink }}</link>
     <description>{{ .Description }}</description>
-    <language>{{ site.LanguageCode }}</language>
+    <language>{{ site.Language.Locale }}</language>
     <copyright>{{ replace .Site.Copyright "{year}" now.Year }}</copyright>
     {{ range .RegularPages }}
     <item>

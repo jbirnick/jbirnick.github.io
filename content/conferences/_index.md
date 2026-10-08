@@ -4,6 +4,7 @@ description = ''
 keywords = ['conferences','applied mathematics']
 menu.main.name = 'Conferences'
 weight = 39
+layout = 'single'
 +++
 
 ## Conferences / Programs / Meetings
