@@ -22,8 +22,6 @@ On this page I collect links to useful webpages, nice people, and other things.
 
 ## Conferences / Programs / Meetings
 
-I now maintain a list of events in my rough area(s) of interest, which is found [here](/conferences/).
-
 If you are looking for the old arithmetic geometry conference list, this is now [here](/conferences/numbertheory/).
 
 ## People
